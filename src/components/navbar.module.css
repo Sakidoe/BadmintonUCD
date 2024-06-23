@@ -1,0 +1,45 @@
+/* src/components/navbar.module.css */
+.nav {
+    background-color: #022851;
+    padding: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensure it stays above other content */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logoContainer {
+    flex-shrink: 0; /* Prevent the logo container from shrinking */
+  }
+  
+  .logo {
+    width: 60px; /* Adjust size as needed */
+    height: auto;
+    object-fit: contain;
+  }
+  
+  .navLinks {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+  }
+  
+  .navLinkItem {
+    margin: 0;
+  }
+  
+  .navLinkText {
+    text-decoration: none;
+    color: white; /* To make the text stand out against the blue background */
+    font-family: Arial, sans-serif; /* Set font to Arial */
+    text-align: right;
+  }
+  
