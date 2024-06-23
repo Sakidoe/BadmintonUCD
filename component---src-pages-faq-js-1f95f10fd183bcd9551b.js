@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkbadminton_ucd=self.webpackChunkbadminton_ucd||[]).push([[329],{6404:function(e,t,n){n.r(t),n.d(t,{Head:function(){return c}});var u=n(7294),a=n(8825);const c=()=>u.createElement("title",null,"FAQ");t.default=()=>u.createElement(a.Z,{pageTitle:"FAQ"},u.createElement("p",null,"Hi there! I'm the proud creator of this site, which I built with Gatsby."))}}]);
+//# sourceMappingURL=component---src-pages-faq-js-1f95f10fd183bcd9551b.js.map

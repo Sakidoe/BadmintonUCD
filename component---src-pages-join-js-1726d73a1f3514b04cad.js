@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkbadminton_ucd=self.webpackChunkbadminton_ucd||[]).push([[985],{969:function(e,t,n){n.r(t),n.d(t,{Head:function(){return a}});var i=n(7294),u=n(8825);const a=()=>i.createElement("title",null,"Join");t.default=()=>i.createElement(u.Z,{pageTitle:"Join"},i.createElement("p",null,"Hi there! I'm the proud creator of this site, which I built with Gatsby."))}}]);
+//# sourceMappingURL=component---src-pages-join-js-1726d73a1f3514b04cad.js.map
