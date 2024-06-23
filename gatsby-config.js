@@ -3,7 +3,7 @@
 @type {import('gatsby').GatsbyConfig}*/
 
 module.exports = {
-    pathPrefix: "/badmintonUCD",
+    pathPrefix: "/BadmintonUCD",
     siteMetadata: {
       title: "Badminton @ UC Davis",
     },
