@@ -13,7 +13,7 @@ const IndexPage = () => {
       <div className="image-container">
         <StaticImage
           alt="The 23'-24' Badminton UCD Team Photo"
-          src="../images/ucd_team2.jpg"
+          src="./images/ucd_team2.jpg"
           className="full-width-image"
         />
         <AnimatedText />
