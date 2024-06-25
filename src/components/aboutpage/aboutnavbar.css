@@ -1,0 +1,72 @@
+/* src/components/navbar.module.css */
+.about-navbar {
+  background-color: #022851;
+  padding: 1rem;
+  width: 100%;
+  display: flex;          /* Makes .about-navbar a flex container */
+  justify-content: center;/* Horizontally centers the child elements */
+  align-items: center;    /* Vertically centers the child elements */
+}
+  
+
+  .nav-buttons {
+    position: relative;
+    height: 50px;
+    padding: 0 30px;
+    border: 2px solid #FFBF00;
+    background: #022851;
+    user-select: none;
+    white-space: nowrap;
+    transition: all .05s linear;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 0px 70px;
+    justify-content: center; /* Add this line to center horizontally */
+    align-items: center; /* This line will now work and center vertically */
+  }
+   
+   .nav-buttons:before, .nav-buttons:after {
+    content: "";
+    position: absolute;
+    background: #022851;
+    transition: all .2s linear;
+   }
+   
+   .nav-buttons:before {
+    width: calc(100% + 6px);
+    height: calc(100% - 16px);
+    top: 8px;
+    left: -3px;
+   }
+   
+   .nav-buttons:after {
+    width: calc(100% - 16px);
+    height: calc(100% + 6px);
+    top: -3px;
+    left: 8px;
+   }
+   
+   .nav-buttons:hover {
+    cursor: crosshair;
+   }
+   
+   .nav-buttons:active {
+    transform: scale(0.95);
+   }
+   
+   .nav-buttons:hover:before {
+    height: calc(100% - 32px);
+    top: 16px;
+   }
+   
+   .nav-buttons:hover:after {
+    width: calc(100% - 32px);
+    left: 16px;
+   }
+   
+   .nav-buttons span {
+    font-size: 15px;
+    z-index: 3;
+    position: relative;
+    font-weight: 600;
+   }

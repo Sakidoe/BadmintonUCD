@@ -1,0 +1,133 @@
+.who-we-are {
+    background: radial-gradient(
+        hsl(238, 80%, 32%), 
+        hsl(200 100% 60%) 
+    ) fixed;
+    background: conic-gradient(
+        hsl(45, 100%, 50%),
+        hsl(45, 100%, 90%), 
+        hsl(45, 100%, 50%)
+    ) fixed;
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    }
+.photo-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 30pt)); /* Adjust minmax values based on photo sizes */
+    justify-content: center; /* Center the photo row horizontally */
+    gap: 5px; /* Space between photos */
+}
+    
+.who-we-are-photo {
+    height: auto;
+    width: auto;
+    border-radius: 50px; /* Curve border of 50px size */
+    margin: 10px; /* Add margin for spacing between photos */
+    }
+.who-we-are-container {
+    background: #1D4776;
+    /*   background: conic-gradient(
+        hsl(100 100% 60%), 
+        hsl(200 100% 60%),
+        hsl(100 100% 60%)
+    ) fixed; */
+    color: white;
+    min-block-size: 100vh;
+    min-inline-size: 100%;
+    box-sizing: border-box;
+    display: grid;
+    padding: 100px;
+    font-family: system-ui;
+    font-size: min(200%, 5vmin);
+    }
+    
+    .title-text, .test2, .who-we-are-container{
+    margin: 0;
+    }
+    
+    .title-text {
+    font-size: 50pt;
+    line-height: 1.1;
+    max-inline-size: 15ch;
+    margin: auto;
+    }
+    
+    .test2 {
+    font-family: "Dank Mono", ui-monospace, monospace;
+    margin-top: 1ch;
+    line-height: 1.35;
+    max-inline-size: 70ch;
+    font-size: 15pt;
+    margin: auto;
+    }
+    
+    html {
+    block-size: 100%;
+    inline-size: 100%;
+    text-align: center;
+    }
+
+.goals-container {
+    background: #153356;
+    /*   background: conic-gradient(
+        hsl(100 100% 60%), 
+        hsl(200 100% 60%),
+        hsl(100 100% 60%)
+    ) fixed; */
+    color: white;
+    min-block-size: 100vh;
+    min-inline-size: 100%;
+    box-sizing: border-box;
+    display: grid;
+    padding: 100px;
+    font-family: system-ui;
+    font-size: min(200%, 5vmin);
+    }
+
+.goals {
+    background: radial-gradient(
+        hsl(238, 80%, 32%), 
+        hsl(200 100% 60%) 
+    ) fixed;
+    background: conic-gradient(
+        hsl(45, 100%, 50%),
+        hsl(45, 100%, 90%), 
+        hsl(45, 100%, 50%)
+    ) fixed;
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+.goals-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 30pt)); /* Adjust minmax values based on photo sizes */
+    justify-content: center; /* Center the photo row horizontally */
+    gap: 5px; /* Space between photos */
+}
+.team-bonding {
+
+}
+
+.goal-title-text {
+    background: radial-gradient(
+        hsl(238, 80%, 32%), 
+        hsl(200 100% 60%) 
+    ) fixed;
+    background: conic-gradient(
+        hsl(45, 100%, 50%),
+        hsl(45, 100%, 90%), 
+        hsl(45, 100%, 50%)
+    ) fixed;
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+.g1 {
+    font-size: 15pt;
+    font-family: "Dank Mono", ui-monospace, monospace;
+}

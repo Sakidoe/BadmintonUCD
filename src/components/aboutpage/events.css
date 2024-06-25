@@ -1,0 +1,64 @@
+* { margin: 0 }
+
+.events-container{
+	margin: 0 auto;
+	padding: .875em .5em;
+	background: whitesmoke;
+    min-block-size: 100vh;
+    box-sizing: border-box;
+    display: grid;
+    padding: 150px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16pt;
+	* + * { margin-top: 1.375em }
+}
+.events-title {
+    font-size: 32pt;
+}
+
+
+
+.event-image {
+	margin-left: calc(50% - 50vw);
+	width: 100vw; height: 62.5vmin;
+	min-height: 15em;
+	background: linear-gradient(#454de39d, transparent, #454de39d), 
+		var(--img) 0%/ cover;
+	background-attachment: fixed;
+	
+	&:nth-of-type(1) {
+		--img: url(../../images/stanford.jpg);
+	}
+	
+	&:nth-of-type(2) {
+		--img: url(../../images/wild_ethan.jpg);
+	}
+	
+	&:nth-of-type(3) {
+		--img: url(../../images/irvine2022_dinner.jpeg);
+	}
+	
+	&:nth-of-type(4) {
+		--img: url(../../images/boston_photo.jpg);
+	}
+	
+	&:nth-of-type(5) {
+		--img: url(../../images/irvine_2022_team.jpg);
+	}
+	
+	&:nth-of-type(6) {
+		--img: url(../../images/bucd_banquet_team.jpg);
+	}
+	
+	&:nth-of-type(7) {
+		--img: url(../../images/ray.jpeg);
+	}
+	
+	&:nth-of-type(8) {
+		--img: url(../../images/davis_open_bereal.jpg);
+	}
+	
+	&:nth-of-type(9) {
+		--img: url(../../images/davis_open_team.jpg);
+	}
+}
