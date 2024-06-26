@@ -1,0 +1,89 @@
+.davis-open {
+    background: conic-gradient(
+        hsl(274, 68%, 32%),
+        hsl(277, 91%, 61%), 
+        hsl(286, 58%, 24%)
+    ) fixed;
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    }
+.DO-title-text {
+    font-size: 50pt;
+    line-height: 1.1;
+    max-inline-size: 30ch;
+    margin: auto;
+    padding: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+.DO-title-description{
+    font-family: "Dank Mono", ui-monospace, monospace;
+    margin-top: 1ch;
+    line-height: 1.35;
+    max-inline-size: 70ch;
+    font-size: 15pt;
+    margin: auto;
+    }
+
+.DO-photo-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 30pt)); /* Adjust minmax values based on photo sizes */
+    justify-content: center; /* Center the photo row horizontally */
+    gap: 10px; /* Space between photos */
+}
+    
+.DO-photo {
+    height: auto;
+    width: auto;
+    border-radius: 50px; /* Curve border of 50px size */
+    margin: 10px; /* Add margin for spacing between photos */
+    }
+
+.DO-about-container {
+    background: #33155e;
+    /*   background: conic-gradient(
+        hsl(100 100% 60%), 
+        hsl(200 100% 60%),
+        hsl(100 100% 60%)
+    ) fixed; */
+    color: white;
+    min-block-size: 100vh;
+    min-inline-size: 100%;
+    box-sizing: border-box;
+    display: grid;
+    padding: 100px;
+    font-family: system-ui;
+    font-size: min(200%, 5vmin);
+    }
+.DO-about {
+    background: conic-gradient(
+        hsl(0, 0%, 69%),
+        hsl(0, 0%, 67%), 
+        hsl(0, 0%, 69%)
+    ) fixed;
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: 50pt;
+}
+
+.DO-about-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 30pt)); /* Adjust minmax values based on photo sizes */
+    justify-content: center; /* Center the photo row horizontally */
+    gap: 5px; /* Space between photos */
+    
+}
+.DO-about-title {
+    background: conic-gradient(
+        hsl(0, 0%, 69%),
+        hsl(0, 0%, 67%), 
+        hsl(0, 0%, 69%)
+    ) fixed;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: 25pt;
+}

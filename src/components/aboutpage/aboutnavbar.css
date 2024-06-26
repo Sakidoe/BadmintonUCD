@@ -19,7 +19,6 @@
     white-space: nowrap;
     transition: all .05s linear;
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
     margin: 0px 70px;
     justify-content: center; /* Add this line to center horizontally */
     align-items: center; /* This line will now work and center vertically */
@@ -67,6 +66,8 @@
    .nav-buttons span {
     font-size: 15px;
     z-index: 3;
+    top: 30%;
+    color:white;
     position: relative;
     font-weight: 600;
    }

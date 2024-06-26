@@ -6,20 +6,16 @@ import './aboutnavbar.css'
 const AboutNavbar = () => {
   return (
     <nav className="about-navbar">
-
-        <button className="nav-buttons">
-          <span> WHO WE ARE
-          </span>
-        </button>
-        <button className="nav-buttons">
-          <span> EVENTS
-          </span>
-        </button>
-        <button className="nav-buttons">
-          <span> DAVIS OPEN
-          </span>
-        </button>
-    </nav>
+    <Link to="/about#who-we-are" className="nav-buttons">
+      <span> WHO WE ARE </span>
+    </Link>
+    <Link to="/about#events" className="nav-buttons">
+      <span> EVENTS </span>
+    </Link>
+    <Link to="/about#davis-open" className="nav-buttons">
+      <span> DAVIS OPEN </span>
+    </Link>
+</nav>
   )
 }
 

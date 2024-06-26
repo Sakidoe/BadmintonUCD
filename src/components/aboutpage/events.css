@@ -1,29 +1,105 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 * { margin: 0 }
 
 .events-container{
 	margin: 0 auto;
 	padding: .875em .5em;
-	background: whitesmoke;
+	background: #1D4776;
     min-block-size: 100vh;
     box-sizing: border-box;
     display: grid;
-    padding: 150px;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 16pt;
 	* + * { margin-top: 1.375em }
 }
-.events-title {
-    font-size: 32pt;
+
+/* The event title and animation*/
+
+.events-title-container{
+    min-height: 100%;
+  overflow: hidden;
+  height: 20px;
+  padding: 4em;
+  color: gold;
+  font-family: 'Anonymous Pro', monospace;  
+  background-color: #1D4776;  
 }
+.events-title{
+    position: relative;
+    top: 80%;  
+    width: 5.5em;
+    margin: 0 auto;
+    border-right: 2px solid gold;
+    font-size: 400%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+.anim-typewriter{
+  animation: typewriter 2s steps(15) 1s 1 normal both,
+             blinkTextCursor 500ms steps(15) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 5.5em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: gold;}
+  to{border-right-color: transparent;}
+}
+/*------------------------*/
 
 
+.event-name {
+    background: radial-gradient(
+        hsl(238, 80%, 32%), 
+        hsl(200 100% 60%) 
+    ) fixed;
+    background: conic-gradient(
+        hsl(45, 100%, 50%),
+        hsl(45, 100%, 90%), 
+        hsl(45, 100%, 50%)
+    ) fixed;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: 30pt;
+}
+.event-description {
+    
+    font-family: "Dank Mono", ui-monospace, monospace;
+    line-height: 1.7;
+    max-inline-size: 60ch;
+    font-size: 15pt;
+    margin: auto;
+    color: white;
+}
+.events-title-description {
+    background: radial-gradient(
+        hsl(238, 80%, 32%), 
+        hsl(200 100% 60%) 
+    ) fixed;
+    background: conic-gradient(
+        hsl(45, 100%, 50%),
+        hsl(45, 100%, 90%), 
+        hsl(45, 100%, 50%)
+    ) fixed;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Dank Mono", ui-monospace, monospace;
+    line-height: 1.35;
+    max-inline-size: 60ch;
+    font-size: 15pt;
+    margin: auto;
+    color: white;
+    }
 
 .event-image {
 	margin-left: calc(50% - 50vw);
-	width: 100vw; height: 62.5vmin;
-	min-height: 15em;
+	width: 100vw;
+	min-height: 30em;
 	background: linear-gradient(#454de39d, transparent, #454de39d), 
-		var(--img) 0%/ cover;
+		var(--img) center/ cover;
 	background-attachment: fixed;
 	
 	&:nth-of-type(1) {
@@ -44,21 +120,31 @@
 	
 	&:nth-of-type(5) {
 		--img: url(../../images/irvine_2022_team.jpg);
-	}
+	} 
 	
-	&:nth-of-type(6) {
+    &:nth-of-type(6) {
+		--img: url(../../images/davis_interclub_AMD.jpg);
+	}
+
+	&:nth-of-type(7) {
 		--img: url(../../images/bucd_banquet_team.jpg);
 	}
-	
-	&:nth-of-type(7) {
-		--img: url(../../images/ray.jpeg);
-	}
-	
-	&:nth-of-type(8) {
-		--img: url(../../images/davis_open_bereal.jpg);
-	}
-	
-	&:nth-of-type(9) {
-		--img: url(../../images/davis_open_team.jpg);
-	}
+
+}
+
+@media (orientation: portrait) {
+    /* Adjust settings for portrait mode if necessary */
+    .event-image {
+        height: 50vh; /* You might want a shorter height in portrait mode */
+        background-size: cover; /* Ensure the background covers the area */
+        background-position: center; /* Center the background image */
+    }
+}
+
+@media (max-width: 768px) {
+    /* Adjustments for narrower screens */
+    .event-image {
+        height: 60vh; /* Increase/decrease based on your design needs */
+        background-size: contain; /* Use contain to ensure the whole image is visible */
+    }
 }
