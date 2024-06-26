@@ -69,7 +69,7 @@ const DavisOpen = () => {
                     <h1 className="DO-about-title">Student Ran</h1>
                     <StaticImage
                     alt="The 23'-24' Badminton UCD Team Photo"
-                    src="../../images/Davis_Open_Team.jpg"
+                    src="../../images/davis_open_team.jpg"
                     className="who-we-are-photo"
                     />
                     <p className="g1">
