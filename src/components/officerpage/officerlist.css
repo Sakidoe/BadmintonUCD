@@ -1,0 +1,35 @@
+.davis-open {
+    background: conic-gradient(
+        hsl(274, 68%, 32%),
+        hsl(277, 91%, 61%), 
+        hsl(286, 58%, 24%)
+    ) fixed;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+.officer-photo {
+    width: 200px; /* Set a fixed width for the vertical images */
+    height: 300px; /* Set a fixed height for the vertical images */
+    object-fit: cover; /* Ensure the image covers the entire container */
+    border-radius: 10px; /* Curve border of 10px size */
+    margin: 10px; /* Add margin for spacing between photos */
+}
+
+.DO-photo-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust minmax values based on photo sizes */
+    justify-content: center; /* Center the photo row horizontally */
+    gap: 20px; /* Space between photos */
+}
+
+.officer-cell {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.officer-info {
+    font-family:'Courier New', Courier, monospace;
+}

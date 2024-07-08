@@ -1,0 +1,46 @@
+
+.join-container {
+    background: #CBD5C0;
+    /*   background: conic-gradient(
+        hsl(100 100% 60%), 
+        hsl(200 100% 60%),
+        hsl(100 100% 60%)
+    ) fixed; */
+    min-inline-size: 100%;
+    box-sizing: border-box;
+    display: grid;
+    font-family: system-ui;
+    font-size: min(200%, 5vmin);
+    }
+
+
+.join-title-text {
+    font-size: 100%;
+    line-height: 1.1;
+    padding:10%;
+}
+
+
+.ucd-phys {
+    background-color: white;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform:uppercase;
+    color: black;
+    letter-spacing: 0.5px;
+    padding: 10px 20px;
+    border-radius: 5000px;
+    transition: all 0.3s;
+    }
+.ucd-phys:hover {
+    transform: scale(1.15);
+}
+.btn--download {
+    padding: 16px 32px;
+    font-size: 16px;
+    bottom: 27px;
+    z-index: 100;
+    left: calc(50% - 96px);
+    box-shadow: 0 6x 23px rbga(0,0,0,0.45);
+    animation: fade-up 0.5s 0.4s backwards;
+}

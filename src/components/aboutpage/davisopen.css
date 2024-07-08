@@ -41,20 +41,9 @@
     }
 
 .DO-about-container {
-    background: #33155e;
-    /*   background: conic-gradient(
-        hsl(100 100% 60%), 
-        hsl(200 100% 60%),
-        hsl(100 100% 60%)
-    ) fixed; */
+    background: rgb(53, 2, 106);
+    text-align: center;
     color: white;
-    min-block-size: 100vh;
-    min-inline-size: 100%;
-    box-sizing: border-box;
-    display: grid;
-    padding: 100px;
-    font-family: system-ui;
-    font-size: min(200%, 5vmin);
     }
 .DO-about {
     background: conic-gradient(

@@ -1,0 +1,130 @@
+.faq-container {
+    font-size: 30px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .faq-title-banner {
+    background: #dab894;
+  }
+  .faq-title {
+    background: conic-gradient(
+        hsl(30, 100%, 36%),
+        hsl(30 100% 60%),
+        hsl(30 100% 36%)
+      )
+      fixed;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin: 0;
+    padding-top: 10%;
+    padding-bottom: 5%;
+  }
+  .faq-title-description {
+    font-family: "Dank Mono", ui-monospace, monospace;
+    margin-top: 1ch;
+    line-height: 1.35;
+    font-size: 15pt;
+    text-align: center;
+    padding-inline: 50px;
+    padding-bottom: 3%;
+  }
+  
+  .social-links {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+  }
+  .social-link2 {
+    display: inline-block;
+    padding-inline: 10%;
+    padding-bottom: 5%;
+  }
+  .social-link1 {
+    display: inline-block;
+    padding-inline: 10%;
+  }
+  
+  .faq-question1 {
+    font-size: 30px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .faq-question1-banner {
+    background: #836953;
+  }
+  .faq-question1-title {
+    background: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin: 0;
+    font-size: 100%;
+    padding-top: 5%;
+  }
+  
+  .faq-question1-description {
+    font-family: "Dank Mono", ui-monospace, monospace;
+    color: white;
+    margin-top: 1ch;
+    line-height: 1.35;
+    font-size: 15pt;
+    text-align: center;
+    padding-inline: 50px;
+    padding-bottom: 5%;
+  }
+  
+  .faq-question2 {
+    font-size: 30px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .faq-question2-banner {
+    background: #ab8a70;
+  }
+  .faq-question2-title {
+    background: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin: 0;
+    font-size: 100%;
+    padding-top: 5%;
+  }
+  
+  .faq-question2-description {
+    font-family: "Dank Mono", ui-monospace, monospace;
+    color: white;
+    margin-top: 1ch;
+    line-height: 1.35;
+    font-size: 15pt;
+    text-align: center;
+    padding-inline: 50px;
+    padding-bottom: 5%;
+  }
+  
+  .faq-question3 {
+    font-size: 30px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .faq-question3-banner {
+    background: #685648;
+  }
+  .faq-question3-title {
+    background: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin: 0;
+    font-size: 100%;
+    padding-top: 5%;
+  }
+  
+  .faq-question3-description {
+    font-family: "Dank Mono", ui-monospace, monospace;
+    color: white;
+    margin-top: 1ch;
+    line-height: 1.35;
+    font-size: 15pt;
+    text-align: center;
+    padding-inline: 50px;
+    padding-bottom: 5%;
+    padding-inline: 20%;
+  }

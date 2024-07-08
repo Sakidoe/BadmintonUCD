@@ -1,11 +1,11 @@
 
 import * as React from 'react'
 import Layout from '../components/layout'
-
+import OfficerList from '../components/officerpage/OfficerList'
 const OfficersPage = () => {
   return (
     <Layout pageTitle="Officers">
-      <p>Here are the 2024-2025 Badminton officers.</p>
+      <OfficerList />
     </Layout>
   )
 }
