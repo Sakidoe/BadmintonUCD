@@ -1,5 +1,6 @@
 import * as React from 'react'
-import './yearpage.scss'
+import './yearpage.css'
+import { StaticImage } from 'gatsby-plugin-image'
 const YearPage = () => {
   return (
     <div class="timeline">
@@ -27,7 +28,10 @@ const YearPage = () => {
       <article>
         <h3>poster</h3>
         <p>put poster here </p>
-        <img src="https://images.fineartamerica.com/images-medium-large-5/maroon-bells-aspen-colorado-black-and-white-photography-by-sai.jpg" alt="Black and white photo of a lake" />
+        <StaticImage
+            src="https://images.fineartamerica.com/images-medium-large-5/maroon-bells-aspen-colorado-black-and-white-photography-by-sai.jpg"
+            className="who-we-are-photo"
+        />
 
       </article>
       <article>
@@ -45,7 +49,11 @@ const YearPage = () => {
       <article>
         <h3>17:30 AM</h3>
         <p>What do they got in there? King Kong?  </p>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Eiffel_tower_at_Exposition_Universelle%2C_Paris%2C_1889.jpg/1200px-Eiffel_tower_at_Exposition_Universelle%2C_Paris%2C_1889.jpg"  />
+        <StaticImage
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Eiffel_tower_at_Exposition_Universelle%2C_Paris%2C_1889.jpg/1200px-Eiffel_tower_at_Exposition_Universelle%2C_Paris%2C_1889.jpg"
+            className="who-we-are-photo"
+        />
+
       </article>
     </div>
   </section>
@@ -67,7 +75,10 @@ const YearPage = () => {
       <article>
         <h3>13:30 AM</h3>
         <p>Yeah, but your scientists were so preoccupied with whether or not they could, they didn't stop to think if they should. </p>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Eiffel_tower_at_Exposition_Universelle%2C_Paris%2C_1889.jpg/1200px-Eiffel_tower_at_Exposition_Universelle%2C_Paris%2C_1889.jpg" alt="Black and White Eiffel Tower" />
+        <StaticImage
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Eiffel_tower_at_Exposition_Universelle%2C_Paris%2C_1889.jpg/1200px-Eiffel_tower_at_Exposition_Universelle%2C_Paris%2C_1889.jpg"
+            className="who-we-are-photo"
+        />
       </article>
       <article>
         <h3>14:30 AM</h3>
@@ -84,11 +95,13 @@ const YearPage = () => {
       <article>
         <h3>17:30 AM</h3>
         <p>What do they got in there? King Kong?  </p>
-        <img src="https://images.fineartamerica.com/images-medium-large-5/maroon-bells-aspen-colorado-black-and-white-photography-by-sai.jpg" alt="Black and white Mountian view" />
+        <StaticImage
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Eiffel_tower_at_Exposition_Universelle%2C_Paris%2C_1889.jpg/1200px-Eiffel_tower_at_Exposition_Universelle%2C_Paris%2C_1889.jpg"
+            className="who-we-are-photo"
+        />
       </article>
     </div>
   </section>
-  <p class="footer-note">Design by <a href="https://dribbble.com/shots/8576480-Book-Festival-Responsive-Website">tubik</a></p>
     </div>
     </main>
     </div>
