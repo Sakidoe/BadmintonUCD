@@ -7,7 +7,8 @@ import {
   logo,
   navLinks,
   navLinkItem,
-  navLinkText
+  navLinkText,
+  currentyearholder
 } from './navbar.module.css'
 
 const Navbar = () => {
@@ -23,6 +24,12 @@ const Navbar = () => {
           />
         </Link>
       </div>
+      <div className={navLinks}>
+      <Link to="/2023-2024" className={navLinkText}>
+        2023-2024
+      </Link>
+      </div>
+      
       <div className={navLinks}>
         <li className={navLinkItem}>
           <Link to="/about" className={navLinkText}>
