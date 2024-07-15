@@ -9,7 +9,8 @@ import DavisOpen from '../components/aboutpage/DavisOpen'
 const AboutPage = () => {
   return (
     <Layout pageTitle="About Me">
-      <BannerImage />
+      <WhoWeAre />
+      {/* <BannerImage />
       <AboutNavbar />
       <div id="who-we-are">
         <WhoWeAre />
@@ -19,7 +20,7 @@ const AboutPage = () => {
       </div>
       <div id="davis-open">
         <DavisOpen />
-      </div>
+      </div> */}
     </Layout>
   )
 }

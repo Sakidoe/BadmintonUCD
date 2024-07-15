@@ -1,0 +1,196 @@
+<div className="timeline-container">
+  <h1>Welcome to a recap of the 2023 - 2024 Year!</h1>
+  <section>
+    <div class="testdiv">
+      <h2>20 September</h2>
+      <h2 class="second-date">27 September</h2>
+    </div>
+    <div class="grid-wrapper">
+      <article>
+        <h3>UC Davis Recfest</h3>
+        <p className="timeline-yap">The officer Team went out and represented our club in the annual UCD Rec Fest!</p>
+      </article>
+      <article>
+        <h3>Recfest!</h3>
+        <StaticImage
+            src="../../images/recfest_1.png"
+            className="timeline-small-photos"
+        />
+      </article>
+      <article>
+      </article>
+      <article>
+        <StaticImage
+            src="../../images/recfest_2.jpg"
+            className="timeline-vert-photos"
+        />
+        <p className="timeline-yap2">
+            Every year during Recfest, the officers table for a few days 
+            with the other sport teams and clubs! If you ever have questions
+            or would like to meet us, this is the perfect time!
+        </p>
+      </article>
+      
+      <article>
+        <h3>First Day of Practice!</h3>
+        <p className='timeline-yap'>It was our very first practice! Like always, week 0 is free for all. </p>
+      </article>
+      <article>
+        <h3>Wild Ethan :D</h3>
+        <StaticImage
+            src="../../images/wild_ethan.jpg"
+            className="timeline-hor-photos"
+        />
+      </article>
+      <article>
+      </article>
+      <article>
+        
+        <StaticImage
+            src="../../images/first_practice_kinda.jpg"
+            className="timeline-hor-photos"
+        />
+        <p className='timeline-yap2'>
+            The first practice is very different from the rest, as it is more of an info session + getting used to 
+            the Davis courts! The turnout is usually higher than normal practices, and usually contains only officers
+            and new players. </p>
+      </article>
+    </div>
+  </section>
+
+
+  <section>
+  <div class="testdiv">
+      <h2>21 October</h2>
+      <h2 class="second-date">11 November</h2>
+    </div>
+    <div class="grid-wrapper">
+      <article>
+        <h3 className='timeline-name'>UCD X SJSU X UCSC Trimeet </h3>
+        <p className='timeline-yap'>
+            For the first Badminton Meet of the quarter, we hosted the teams from SJSU(San Jose State)
+            and UCSC(Santa Cruz) for a trimeet in Davis. Although UCD won the event, we appreciated all
+            schools for coming out an playing!
+        </p>
+      </article>
+      <article>
+      <StaticImage
+            src="../../images/diana_alpha.jpg"
+            className="timeline-hor-photos"
+        />
+        <p>OP captains</p>
+      </article>
+      <article>
+        <StaticImage
+            src="../../images/trimeet_after.png"
+            className="timeline-hor-photos"
+        />
+        <p>Victory Boba!!</p>
+      </article>
+      <article>
+      <div className='parent-container'>
+        <StaticImage
+            src="../../images/trimeet_all_pic.jpg"
+            className="timeline-hor-photos"
+        />
+        </div>
+        <p className='timeline-yap2'>Left - San Jose State, Middle - Davis, Right - UCSC</p>
+      </article>
+      <article>
+        <h3>UCD X Berkeley Meet</h3>
+        <p className='timeline-yap'>
+            For our second meet, we took our very first away trip to Berkeley 
+            for this meet! It was a close fight, and an extremely fun time for all. 
+        </p>
+      </article>
+      <article>
+        <StaticImage
+                src="../../images/col_claud_iris_cal.JPG"
+                className="timeline-hor-photos"
+            />
+        <p>Collette, Claudia, and Iris chillin</p>
+      </article>
+      <article>
+      <StaticImage
+            src="../../images/xin_rob_cal.jpg"
+            className="timeline-hor-photos"
+        />
+    <p> Xin and Robert serving</p>
+      </article>
+      <article>
+      <div className='parent-container'>
+        <StaticImage
+            src="../../images/ucd_at_cal.jpg"
+            className="timeline-hor-photos"
+        />
+        </div>
+        <p>The UCD Away Team @ Cal Badminton!</p>
+      </article>
+    </div>
+  </section>
+
+  <section>
+      <h2>12-15 January</h2>
+    <div class="grid-wrapper">
+      <article>
+        <h3 className='timeline-name'>IRVINE TRIP</h3>
+        <p className='timeline-yap'>
+            Our annual tradition for the badminton team is the Irvine trip! This year our team
+            went down to participant in the UCI Collegiate Anteater Open.
+        </p>
+      </article>
+      <article>
+      <StaticImage
+            src="../../images/diana_alpha.jpg"
+            className="timeline-hor-photos"
+        />
+        <p>OP captains</p>
+      </article>
+      <article>
+        <StaticImage
+            src="../../images/trimeet_after.png"
+            className="timeline-hor-photos"
+        />
+        <p>Victory Boba!!</p>
+      </article>
+      <article>
+      <div className='parent-container'>
+        <StaticImage
+            src="../../images/trimeet_all_pic.jpg"
+            className="timeline-hor-photos"
+        />
+        </div>
+        <p className='timeline-yap2'>Left - San Jose State, Middle - Davis, Right - UCSC</p>
+      </article>
+      <article>
+        <h3>UCD X Berkeley Meet</h3>
+        <p className='timeline-yap'>
+            For our second meet, we took our very first away trip to Berkeley 
+            for this meet! It was a close fight, and an extremely fun time for all. 
+        </p>
+      </article>
+      <article>
+        <StaticImage
+                src="../../images/col_claud_iris_cal.JPG"
+                className="timeline-hor-photos"
+            />
+        <p>Collette, Claudia, and Iris chillin</p>
+      </article>
+      <article>
+      <StaticImage
+            src="../../images/xin_rob_cal.jpg"
+            className="timeline-hor-photos"
+        />
+    <p> Xin and Robert serving</p>
+      </article>
+      <article>
+      <div className='parent-container'>
+        <StaticImage
+            src="../../images/ucd_at_cal.jpg"
+            className="timeline-hor-photos"
+        />
+        </div>
+        <p>The UCD Away Team @ Cal Badminton!</p>
+      </article>
+    </div>
+  </section>

@@ -1,48 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+
+.introduction-color{
+  background-color: #9AADC2;
+}
 .introduction {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    box-sizing: border-box;
-    background-color: #9AADC2;
-    padding: 50px 20px; /* Adjust padding to your needs */
-    font-family: "Dank Mono", ui-monospace, monospace;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 6%;
+  margin: 0 auto;
+}
+
+.introduction-description {
+  max-width: 500px;
+  margin: 0;
+  font-size: 2vw;
+  color: #FFF9E5;
+  text-align: center; /* Align text to the left */
+  font-family: 'Raleway', sans-serif;
+  padding-bottom: 2%;
+  padding: 50px 20px;
+}
+
+.introduction-photo {
+  max-width: 650px;
+  display: flex;
+  justify-content: center;
+}
+
+.curved-heart-image {
+width:100%;
+}
+
+.introduction-title {
+  margin: 0;
+  padding: 5%;
+  font-size: 4vw;
+  color: #FFD966;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+@media (max-width: 1000px) {
+  .introduction {
+      flex-direction: column;
+      align-items: center;
+      padding: 20px 10px; /* Adjust padding for small screens */
   }
-  
-  .introduction-paragraph {
-    width: 40%;
-    text-align: left;
+
+  .introduction-description {
+      max-width: 350px;
+      font-size: 4vw; /* Adjust font size for small screens */
+      padding: 10px 0; /* Add padding for separation */
+      text-align: center; /* Center text on small screens */
   }
-  
+
   .introduction-photo {
-    width: 50%;
-    display: flex;
-    justify-content: flex-end;
+      width: 80%;
+      margin-bottom: 20px; /* Add margin for separation */
   }
-  
+
   .curved-heart-image {
-    width: 80%; /* Adjust width as needed */
-    border-radius: 50px; /* Curve border of 3pt size */
+      width: 100%; /* Adjust width as needed */
+      border-radius:10px;
   }
-  
-  .introduction h1 {
+  .introduction-title {
     margin: 0;
-    padding: 20px;
-    font-size: 2.5rem;
+    padding: 5%;
+    font-size: 7vw;
     color: #FFD966;
-    text-align: center; /* Align text to the left */
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
   }
   
-  .introduction p {
-    margin: 0;
-    font-size: 1.5rem;
-    color: #FFF9E5;
-    text-align: center;
-  }
+}
+
+
 
   .button-link {
     display: flex;
     justify-content: center;
+    padding-bottom: 5%;
   }
 
   .animated-button {

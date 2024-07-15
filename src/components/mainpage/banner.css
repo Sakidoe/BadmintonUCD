@@ -1,24 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
 .banner {
     text-align: center;
     background-color: #022851;
     padding: 70px;
-    font-family: "Dank Mono", ui-monospace, monospace;
+    font-family: "Raleway", sans-serif;
 }
 
-.banner h1 {
+.mainpage-title {
     margin: 0;
-    font-size: 2.5rem;
+    font-size: 5vw;
     color: #FFD966;
+    font-family: "Raleway", sans-serif;
+    padding-bottom:1.5%;
+    padding-top:0.5%;
 }
 
 .banner p1 {
     margin: 0;
-    font-size: 1.5rem;
+    font-size: 2vw;
     color: #FFF9E5;
 }
 
 .banner p2 {
     margin: 0;
-    font-size: 1rem;
     color: #FFF9E5;
+    font-size: 1.5vw;
+}
+
+@media (max-width: 768px) {
+
+
+    .mainpage-title {
+        margin: 0;
+        font-size: 7.5vw;
+        color: #FFD966;
+        font-family: "Raleway", sans-serif;
+        padding-bottom:1.5%;
+        padding-top:0.5%;
+    }
+    .banner p1 {
+        margin: 0;
+        font-size: 4vw;
+        color: #FFF9E5;
+    }
+
+    .banner p2 {
+        margin: 0;
+        color: #FFF9E5;
+        font-size: 3vw;
+    }
+
+
 }

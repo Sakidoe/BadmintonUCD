@@ -5,11 +5,6 @@ import YearBanner from '../components/yearpage/YearBanner'
 const ThisYear = () => {
     return (
       <Layout pageTitle="2023-2024">
-        <p>blah</p>
-        <p>blah</p>
-        <p>blah</p>
-        <p>blah</p>
-        <p>blah</p>
         <YearBanner />
         <YearPage />
       </Layout>

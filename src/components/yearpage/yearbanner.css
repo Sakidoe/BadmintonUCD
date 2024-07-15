@@ -1,0 +1,21 @@
+
+.timeline-banner-container{
+    background: white;
+    /*   background: conic-gradient(
+        hsl(100 100% 60%), 
+        hsl(200 100% 60%),
+        hsl(100 100% 60%)
+    ) fixed; */
+    min-inline-size: 100%;
+    box-sizing: border-box;
+    display: grid;
+    font-family: system-ui;
+    font-size: min(200%, 5vmin);
+    }
+
+
+.join-title-text {
+    font-size: 100%;
+    line-height: 1.1;
+    padding:10%;
+}

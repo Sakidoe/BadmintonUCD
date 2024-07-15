@@ -9,18 +9,20 @@ import './index.css'
 
 const IndexPage = () => {
   return (
-    <Layout pageTitle>
-      <div className="image-container">
-        <StaticImage
-          alt="The 23'-24' Badminton UCD Team Photo"
-          src="../images/ucd_team2.jpg"
-          className="full-width-image"
-        />
-        <AnimatedText />
-      </div>
-      <Banner />
-      <Introduction />
-    </Layout>
+    <div className="mainpage-controls">
+      <Layout pageTitle>
+        <div className="image-container">
+          <StaticImage
+            alt="The 23'-24' Badminton UCD Team Photo"
+            src="../images/2022_bucd_banner.png"
+            className="full-width-image"
+          />
+          <AnimatedText />
+        </div>
+        <Banner />
+        <Introduction />
+      </Layout>
+    </div>
   )
 }
 
