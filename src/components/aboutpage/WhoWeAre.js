@@ -20,14 +20,6 @@ const WhoWeAre = () => {
                 <a href="#davis_open" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Davis Open</a> 
             </div>
         </nav>
-
-        <header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
-            <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
-            <span>:)</span>
-        </header>
-
-        <div class="overlay-eff w3-overlay w3-hide-large" onclick="w3_close()" title="close side menu" id="myOverlay"></div>
-
 <div class=' w3-main' className='about-container-style'>
 
   <div class="w3-container" className='about-class-style' id="showcase">
@@ -376,6 +368,7 @@ const WhoWeAre = () => {
   </div>
   </div>
   </div>
+  
     // <div>
     //     <div className="who-we-are-container">
     //         <nav className="who-we-are">

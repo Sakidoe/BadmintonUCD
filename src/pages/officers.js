@@ -10,6 +10,4 @@ const OfficersPage = () => {
   )
 }
 
-export const Head = () => <title>Officers</title>
-
 export default OfficersPage

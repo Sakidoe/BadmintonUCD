@@ -14,7 +14,6 @@ const Layout = ({ pageTitle, children }) => {
       <div className={fullWidthContainer}>
       <Navbar />
         <main>
-          <h1 className={heading}>{pageTitle}</h1>
           {children}
         </main>
       <Outro />

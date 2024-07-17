@@ -1,19 +1,34 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
-import { StaticImage } from 'gatsby-plugin-image'
+import { StaticImage} from 'gatsby-plugin-image'
+import { navigate } from 'gatsby';
 import {
-  nav,
+  largeScreenNavbar,
   logoContainer,
   logo,
   navLinks,
   navLinkItem,
   navLinkText,
-  currentyearholder
+  currentyearholder,
+  blogText,
+  blogLink,
+  smallScreenDropdown,
+  ssDropDownStyle,
+  ssDropDownTitle,
 } from './navbar.module.css'
 
 const Navbar = () => {
+
+  const handleNavigation = (event) => {
+    const selectedValue = event.target.value;
+    if (selectedValue) {
+      navigate(selectedValue);
+    }
+  };
+
   return (
-    <nav className={nav}>
+    <div>
+    <nav className={largeScreenNavbar}>
       <div className={logoContainer}>
         <Link to="/">
           <StaticImage
@@ -24,10 +39,10 @@ const Navbar = () => {
           />
         </Link>
       </div>
-      <div className={navLinks}>
-      <Link to="/2023-2024" className={navLinkText}>
-        2023-2024
-      </Link>
+      <div className={blogLink}>
+        <Link to="/2023-2024" className={blogText}>
+          2023-2024
+        </Link>
       </div>
       
       <div className={navLinks}>
@@ -53,6 +68,21 @@ const Navbar = () => {
         </li>
       </div>
     </nav>
+
+    
+    <div className={smallScreenDropdown}>
+      <h1 className={ssDropDownTitle}>Badminton at UC Davis</h1>
+        <select className={ssDropDownStyle} onChange={handleNavigation}>
+          <option value="/">☰</option>
+          <option value="/">Home</option>
+          <option value="/2023-2024">2023-2024</option>
+          <option value="/about">ABOUT</option>
+          <option value="/officers">OFFICERS</option>
+          <option value="/join">JOIN</option>
+          <option value="/FAQ">FAQ</option>
+        </select>
+    </div>
+    </div>
   )
 }
 

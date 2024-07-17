@@ -14,7 +14,7 @@ const IndexPage = () => {
         <div className="image-container">
           <StaticImage
             alt="The 23'-24' Badminton UCD Team Photo"
-            src="../images/2022_bucd_banner.png"
+            src="../images/ucd_team3.jpg"
             className="full-width-image"
           />
           <AnimatedText />

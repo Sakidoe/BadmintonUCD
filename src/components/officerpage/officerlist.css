@@ -1,27 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
 .davis-open {
-    background: conic-gradient(
-        hsl(274, 68%, 32%),
-        hsl(277, 91%, 61%), 
-        hsl(286, 58%, 24%)
-    ) fixed;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-align: center;
+    text-align: left;
+    padding-left:8%;
+}
+
+.DO-title-text {
+    padding-top: 2.5%;
+    padding-bottom:1%;
+    font-size:50pt;
+    font-family: 'Raleway', sans-serif;
+
+}
+.DO-title-description{
+    padding-bottom:2%;
+    font-size:15pt;
+
+    
 }
 
 .officer-photo {
-    width: 200px; /* Set a fixed width for the vertical images */
-    height: 300px; /* Set a fixed height for the vertical images */
+    max-width:400px;
+    height: 100%; /* Set a fixed width for the vertical images */
+    max-height: 400px; /* Set a fixed height for the vertical images */
     object-fit: cover; /* Ensure the image covers the entire container */
-    border-radius: 10px; /* Curve border of 10px size */
-    margin: 10px; /* Add margin for spacing between photos */
+    margin:1%;/* Add margin for spacing between photos */
 }
 
 .DO-photo-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust minmax values based on photo sizes */
+    grid-template-columns: repeat(4, 1fr);/* Adjust minmax values based on photo sizes */
     justify-content: center; /* Center the photo row horizontally */
-    gap: 20px; /* Space between photos */
+    gap: 10px; /* Space between photos */
+    padding-top:2.5%;
+    padding-left:10%;
+    padding-right:10%;
+    padding-bottom:5%;
 }
 
 .officer-cell {
@@ -30,6 +44,60 @@
     align-items: center;
     text-align: center;
 }
-.officer-info {
-    font-family:'Courier New', Courier, monospace;
+.officer-name {
+    margin:1%;
+    font-weight: bold;
+    font-size: 20pt;
 }
+.officer-info {
+    font-family:'Raleway', sans-serif;
+    padding-bottom:0;
+    margin:1%;
+}
+.officer-title {
+    margin:0;
+    padding-bottom:5px;
+    color:rgb(75, 75, 75);
+}
+
+@media (max-width: 1000px) {
+    .DO-title-text {
+        text-align: left;
+        padding-top: 2.5%;
+        padding-bottom:1%;
+        font-size:40pt;
+        font-family: 'Raleway', sans-serif;
+    
+    }
+    .DO-photo-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);/* Adjust minmax values based on photo sizes */
+        justify-content: center; /* Center the photo row horizontally */
+        gap: 10px; /* Space between photos */
+        padding-top:2.5%;
+        padding-left:5%;
+        padding-right:5%;
+        padding-bottom:5%;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .officer-photo {
+        max-width:300px;
+        height: 100%; /* Set a fixed width for the vertical images */
+        max-height: 400px; /* Set a fixed height for the vertical images */
+        object-fit: cover; /* Ensure the image covers the entire container */
+        margin:1%;/* Add margin for spacing between photos */
+    }
+    .DO-photo-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);/* Adjust minmax values based on photo sizes */
+        justify-content: center; /* Center the photo row horizontally */
+        gap: 10px; /* Space between photos */
+        padding-top:2.5%;
+        padding-left:2.5%;
+        padding-right:2.5%;
+        padding-bottom:5%;
+    }
+  }
+  
