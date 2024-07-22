@@ -5,10 +5,9 @@ import './whoweare.css'
 
 const WhoWeAre = () => {
   return (
-    
     <div>
-        
-        <nav class="sidebar-nav w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" id="mySidebar"><br />
+        {/*nav side bar*/}
+        <nav class="sidebar-nav about-sidebar w3-red about-sidebar-collapse w3-top w3-large w3-padding" id="mySidebar"><br />
             <a href="javascript:void(0)" onclick="w3_close()" class="sidebar-ref w3-button w3-hide-large w3-display-topleft" >Close Menu</a>
             <div class="w3-container">
                 <h3 class="w3-padding-64"><b>About Us</b></h3>
@@ -69,7 +68,9 @@ const WhoWeAre = () => {
   <div class="w3-container" className='area1-style' id="services">
     <h1 class="w3-xxxlarge w3-text-red"><b>Who We Are.</b></h1>
     <hr className= 'w3-round'/>
-    <p className='about-bold-paragraph'>Our Mission: “Provide access to badminton facilities for students to come together, fostering good sportsmanship and leadership skills at all levels”</p>
+    <p className='about-bold-paragraph'>Our Mission: “Provide access to badminton 
+    facilities for students to come together, fostering good sportsmanship and 
+    leadership skills at all levels”</p>
     <p className='about-paragraph'>Our Goals:
     </p>
   </div>
@@ -86,7 +87,9 @@ const WhoWeAre = () => {
           <h3>Team Bonding</h3>
           <p class="w3-opacity">Comaraderie</p>
           <p className='about-paragraph'>
-            As a team, we want to create an environment for members to find lifelong friends. From quarterly bonding events, meetups, and many boba trips, we prioritize our members to learn
+            As a team, we want to create an environment for members to find 
+            lifelong friends. From quarterly bonding events, meetups,
+             and many boba trips, we prioritize our members to learn
            and grow with each other as one team.</p>
         </div>
       </div>
@@ -100,7 +103,12 @@ const WhoWeAre = () => {
         <div class="w3-container">
           <h3>Community</h3>
           <p class="w3-opacity">Leadership & Etiquette</p>
-          <p className='about-paragraph'>As apart of the badminton community, we want to maintain a healthy relationship with other school clubs, as well as other associations within California. We consistently host school meets against other local schools, notably SJSU, UCSC, Stanford, and UC Berkeley. We also encourage club members to attend local tournaments, as well as aid in creating our own.</p>
+          <p className='about-paragraph'>As apart of the badminton community, 
+          we want to maintain a healthy relationship with other school clubs,
+           as well as other associations within California. We consistently 
+           host school meets against other local schools, notably SJSU, UCSC, 
+           Stanford, and UC Berkeley. We also encourage club members to attend 
+           local tournaments, as well as aid in creating our own.</p>
         </div>
       </div>
     </div>
@@ -113,7 +121,10 @@ const WhoWeAre = () => {
         <div class="w3-container">
           <h3>Victory</h3>
           <p class="w3-opacity">Training & Competition</p>
-          <p>Our vision for the club is to win the National Collegiate Championships. To do this, our weekly practices promote members to match with others who are at their level. We want our players to be the best that they can be, with access to peers who are willing to help each other improve.</p>
+          <p>Our vision for the club is to win the National Collegiate Championships. 
+            To do this, our weekly practices promote members to match with others who 
+            are at their level. We want our players to be the best that they can be, 
+            with access to peers who are willing to help each other improve.</p>
         </div>
       </div>
     </div>
@@ -126,7 +137,10 @@ const WhoWeAre = () => {
         <div class="w3-container">
           <h3>Resources</h3>
           <p class="w3-opacity">Birds, Courts, & Teammates!</p>
-          <p>To help our members have a seamless experience while playing badminton, we offer many accomodations for them. This includes free birds for every match, an abundance of courts to play on, and contacts in case of stringing needs or for new gear.</p>
+          <p>To help our members have a seamless experience while playing badminton, 
+            we offer many accomodations for them. This includes free birds for every match,
+             an abundance of courts to play on, and contacts in case of stringing needs or 
+             for new gear.</p>
         </div>
       </div>
     </div>

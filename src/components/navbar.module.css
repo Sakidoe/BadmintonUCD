@@ -61,16 +61,27 @@
     font-family: Arial, sans-serif; /* Set font to Arial */
     text-align: right;
   }
+
+
   .smallScreenDropdown {
-    display:flex;
+    display: flex;
     align-items: center; /* Align items vertically in the center */
     justify-content: space-between;
-    padding: 10px;
+    padding-left:15pt;
+    padding-right:15pt;
+    padding-top:9pt;
+    padding-bottom:9pt;
     background-color: #022851; /* Light background for contrast */
-    border-radius: 8px; /* Rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    margin: 20px;
-    font-size:30pt;
+    position: fixed; /* Fixed positioning */
+    top: 5pt; /* Position it at the top */
+    left: 0;
+    right: 0;
+    width: 91%; /* Span the entire width of the screen */
+    max-width: 1200px; /* Maximum width for centered content */
+    margin: 0 auto; /* Center the navbar */
+    z-index: 1000; /* Ensure it overlays other content */
+    border-radius: 5pt; /* Remove rounded corners */
   }
   @media (max-width: 1000px) {
     .largeScreenNavbar { display: none; }
@@ -97,24 +108,12 @@
   
   .ssDropDownStyle:hover {
 
-    border-color: #888; /* Darker border on hover */
-  }
-  
-  .ssDropDownStyle:focus {
-
-    border-color: #d6eaff; /* Blue border on focus */
-    box-shadow: 0 0 0 3px rgba(0, 86, 179, 0.3); /* Focus shadow */
-  }
-  
-  .ssDropDownStyle option {
-    background-color: #fff; /* White background for options */
-    color: #333; /* Dark gray text color */
-    font-family: 'Raleway', sans-serif;
+    border-color: #FFECB2; /* Darker border on hover */
   }
   
   .ssDropDownTitle{
     color:white;
-    font-size:45%;
+    font-size:100%;
     margin: 0;
     font-family: 'Raleway', sans-serif;
   }

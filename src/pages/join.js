@@ -8,8 +8,6 @@ const JoinPage = () => {
   return (
     <Layout pageTitle="Join">
       <JoinBanner />
-      <PhysicalInfo />
-      <MemberInfo />
     </Layout>
   )
 }

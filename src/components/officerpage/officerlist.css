@@ -6,7 +6,7 @@
 }
 
 .DO-title-text {
-    padding-top: 2.5%;
+    padding-top: 5%;
     padding-bottom:1%;
     font-size:50pt;
     font-family: 'Raleway', sans-serif;
@@ -63,7 +63,7 @@
 @media (max-width: 1000px) {
     .DO-title-text {
         text-align: left;
-        padding-top: 2.5%;
+        padding-top: 15%;
         padding-bottom:1%;
         font-size:40pt;
         font-family: 'Raleway', sans-serif;
