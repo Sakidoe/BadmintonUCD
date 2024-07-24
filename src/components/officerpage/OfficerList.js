@@ -16,13 +16,13 @@ const DavisOpen = () => {
                 <nav className='officer-cell'>
                         <StaticImage
                         alt="The 23'-24' Badminton UCD Team Photo"
-                        src="../../images/officers_ethan.png"
+                        src="../../images/officers_ethan2.jpeg"
                         className="officer-photo"
                         />
                         <p className='officer-name'>Ethan Chen</p>
                         <p className='officer-title'>President</p>
                         <p className='officer-info'>Year: Senior</p>
-                        <p className='officer-info'>Major: Chemical Engineering</p>
+                        <p className='officer-info'>Major: Chemistry</p>
                     </nav>
                 <nav className='officer-cell'>
                     <StaticImage
