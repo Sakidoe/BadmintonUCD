@@ -11,14 +11,14 @@ const IndexPage = () => {
   return (
     <div className="mainpage-controls">
       <Layout pageTitle>
-        <div className="image-container">
-          <StaticImage
+          <div className='front-page-banner'>
+            
+          </div>
+          {/* <StaticImage
             alt="The 23'-24' Badminton UCD Team Photo"
-            src="../images/ucd_team3.jpg"
-            className="full-width-image"
-          />
-          <AnimatedText />
-        </div>
+            src="../images/bucd_formal_funny.jpg"
+            className="front-page-banner"
+          /> */}
         <Banner />
         <Introduction />
       </Layout>

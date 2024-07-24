@@ -5,53 +5,37 @@ import { StaticImage } from 'gatsby-plugin-image'
 const Outro = () => {
   return (
     <div className="outro">
-      <div className="outro-paragraph">
-        <h1>Follow Us For Updates</h1>
-        <ul>
+      <div className="outro-section">
+        <h1 className='outro-title'>Follow Us For Updates</h1>
+        <ul className='outro-links'>
           <li>
-            <a className="facebook" href="https://www.facebook.com/groups/ucdavisbadminton">
-                <span>
-                    <StaticImage
-                    src="../images/facebook5.png"
-                    className="social-icon"
-                    />
-                </span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <i className="fa fa-facebook" aria-hidden="true"></i>
+            <a href="https://www.facebook.com/groups/ucdavisbadminton" class="rounded-button">
+                <StaticImage
+                  src="../images/facebook5.png"
+                  className="social-icon"
+                  />
             </a>
           </li>
           <li>
-            <a className="instagram" href="https://www.instagram.com/badminton_ucd/">
-              <span>
-                <StaticImage
-                    src="../images/instagram.png"
-                    className="social-icon"
-                /></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <i className="fa fa-instagram" aria-hidden="true"></i>
+            <a href="https://www.instagram.com/badminton_ucd/" class="rounded-button">
+              <StaticImage
+                  src="../images/instagram.png"
+                  className="social-icon"
+                  />
             </a>
           </li>
           <li>
-            <a className="discord" href="https://discord.gg/bssTuRwBZx">
-              <span>
-                <StaticImage
-                    src="../images/discord.png"
-                    className="social-icon"
-                /></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              <i className="fa fa-discord" aria-hidden="true"></i>
+            <a href="https://discord.gg/bssTuRwBZx" class="rounded-button">
+              <StaticImage
+                src="../images/discord.png"
+                className="social-icon"
+                />
             </a>
           </li>
         </ul>
-        <p className="p1">Question? Email us at davisbadminton@gmail.com</p>
-        <p className="p2">Developed by Richard Huang, Publicity Coordinator</p>
-        <p className="p3">With 💜 from the officers of the Badminton Club at UC Davis</p>
+        <p className="outro-email">Question? Email us at davisbadminton@gmail.com</p>
+        <p className="outro-dev">Developed by Richard Huang, Publicity Coordinator</p>
+        <p className="outro-love">With 💜 from the officers of the Badminton Club at UC Davis</p>
       </div>
     </div>
   )

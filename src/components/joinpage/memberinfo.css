@@ -1,4 +1,4 @@
-.mem-info-container {
+/* .mem-info-container {
     background-color: #9CAF88;
 
     text-align: center;
@@ -11,9 +11,9 @@
 
 .other-steps-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust minmax values based on photo sizes */
-    justify-content: center; /* Center the photo row horizontally */
-    gap: 20px; /* Space between photos */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center; Center the photo row horizontally 
+    gap: 20px; Space between photos
 }
 
 .step-cell {
@@ -90,4 +90,4 @@ tpf:hover {
     bottom: 27px;
     box-shadow: 0 6x 23px rbga(0,0,0,0.45);
     animation: fade-up 0.5s 0.4s backwards;
-}
+} */

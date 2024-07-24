@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+/* @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 * { margin: 0 }
 
 .events-container{
@@ -12,7 +12,6 @@
 	* + * { margin-top: 1.375em }
 }
 
-/* The event title and animation*/
 
 .events-title-container{
     min-height: 100%;
@@ -47,7 +46,6 @@
   from{border-right-color: gold;}
   to{border-right-color: transparent;}
 }
-/*------------------------*/
 
 
 .event-name {
@@ -133,18 +131,18 @@
 }
 
 @media (orientation: portrait) {
-    /* Adjust settings for portrait mode if necessary */
+
     .event-image {
-        height: 50vh; /* You might want a shorter height in portrait mode */
-        background-size: cover; /* Ensure the background covers the area */
-        background-position: center; /* Center the background image */
+        height: 50vh;
+        background-size: cover; 
+        background-position: center; 
     }
 }
 
 @media (max-width: 768px) {
-    /* Adjustments for narrower screens */
+
     .event-image {
-        height: 60vh; /* Increase/decrease based on your design needs */
-        background-size: contain; /* Use contain to ensure the whole image is visible */
+        height: 60vh; 
+        background-size: contain;
     }
-}
+} */

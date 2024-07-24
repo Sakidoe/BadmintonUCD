@@ -3,7 +3,9 @@
 .banner {
     text-align: center;
     background-color: #022851;
-    padding: 70px;
+    padding-inline: 70px;
+    padding-top:12%;
+    padding-bottom:12%;
     font-family: "Raleway", sans-serif;
 }
 
@@ -28,16 +30,23 @@
     font-size: 1.5vw;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 850px) {
 
-
+    .banner{
+        padding-inline:0;
+        padding-top:20%;
+        padding-bottom:20%;
+    }
     .mainpage-title {
         margin: 0;
-        font-size: 7.5vw;
+        font-size: 8vw;
         color: #FFD966;
         font-family: "Raleway", sans-serif;
-        padding-bottom:1.5%;
-        padding-top:0.5%;
+        padding-bottom:7%;
+        padding-top:3%;
+        padding-left: 5px;
+        padding-right:5px;
+
     }
     .banner p1 {
         margin: 0;

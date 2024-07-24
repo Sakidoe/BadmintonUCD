@@ -1,9 +1,4 @@
-.davis-open {
-    background: conic-gradient(
-        hsl(274, 68%, 32%),
-        hsl(277, 91%, 61%), 
-        hsl(286, 58%, 24%)
-    ) fixed;
+/* .davis-open {
     
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -28,16 +23,16 @@
 
 .DO-photo-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(500px, 30pt)); /* Adjust minmax values based on photo sizes */
-    justify-content: center; /* Center the photo row horizontally */
-    gap: 10px; /* Space between photos */
+    grid-template-columns: repeat(auto-fill, minmax(500px, 30pt));
+    justify-content: center;
+    gap: 10px; 
 }
     
 .DO-photo {
     height: auto;
     width: auto;
-    border-radius: 50px; /* Curve border of 50px size */
-    margin: 10px; /* Add margin for spacing between photos */
+    border-radius: 50px;
+    margin: 10px;
     }
 
 .DO-about-container {
@@ -60,9 +55,9 @@
 
 .DO-about-list {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(500px, 30pt)); /* Adjust minmax values based on photo sizes */
-    justify-content: center; /* Center the photo row horizontally */
-    gap: 5px; /* Space between photos */
+    grid-template-columns: repeat(auto-fill, minmax(500px, 30pt)); 
+    justify-content: center;
+    gap: 5px;
     
 }
 .DO-about-title {
@@ -79,4 +74,4 @@
 .about-paragraph{
     font-size:15px;
     font-family: 'Raleway', sans-serif;
-}
+} */

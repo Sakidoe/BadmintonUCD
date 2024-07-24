@@ -1,11 +1,11 @@
-/* src/components/navbar.module.css */
+ src/components/navbar.module.css
 .about-navbar {
   background-color: #022851;
   padding: 1rem;
   width: 100%;
-  display: flex;          /* Makes .about-navbar a flex container */
-  justify-content: center;/* Horizontally centers the child elements */
-  align-items: center;    /* Vertically centers the child elements */
+  display: flex;    
+  justify-content: center;
+  align-items: center;  
 }
   
 
@@ -20,8 +20,8 @@
     transition: all .05s linear;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px 70px;
-    justify-content: center; /* Add this line to center horizontally */
-    align-items: center; /* This line will now work and center vertically */
+    justify-content: center; 
+    align-items: center;
   }
    
    .nav-buttons:before, .nav-buttons:after {
@@ -70,4 +70,4 @@
     color:white;
     position: relative;
     font-weight: 600;
-   }
+   } 

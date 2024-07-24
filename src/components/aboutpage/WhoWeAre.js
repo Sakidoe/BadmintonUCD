@@ -7,21 +7,21 @@ const WhoWeAre = () => {
   return (
     <div>
         {/*nav side bar*/}
-        <nav class="sidebar-nav about-sidebar w3-red about-sidebar-collapse w3-top w3-large w3-padding" id="mySidebar"><br />
+        <nav class="about-sidebar-nav about-sidebar about-background1 about-position" id="mySidebar"><br />
             <a href="javascript:void(0)" onclick="w3_close()" class="sidebar-ref w3-button w3-hide-large w3-display-topleft" >Close Menu</a>
-            <div class="w3-container">
-                <h3 class="w3-padding-64"><b>About Us</b></h3>
+            <div class="about-container-sidebar">
+                <h3 class="about-padding-64"><b>About Us</b></h3>
             </div>
-            <div class="w3-bar-block">
-                <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
-                <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Who We Are</a> 
-                <a href="#designers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Events</a> 
-                <a href="#davis_open" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Davis Open</a> 
+            <div class="about-bar-block">
+                <a href="#" onclick="w3_close()" class="about-bar-item w3-button about-hover-white">Home</a> 
+                <a href="#services" onclick="w3_close()" class="about-bar-item w3-button about-hover-white">Who We Are</a> 
+                <a href="#designers" onclick="w3_close()" class="about-bar-item w3-button about-hover-white">Events</a> 
+                <a href="#davis_open" onclick="w3_close()" class="about-bar-item w3-button about-hover-white">Davis Open</a> 
             </div>
         </nav>
 <div class=' w3-main' className='about-container-style'>
 
-  <div class="w3-container" className='about-class-style' id="showcase">
+  <div class="about-container" className='about-class-style' id="showcase">
     <h1 class="w3-jumbo"><b>Badminton Club at UC Davis</b></h1>
     <h1 class="w3-xxxlarge w3-text-red"><b>Showcase.</b></h1>
     <hr className= 'w3-round'/>
@@ -65,7 +65,7 @@ const WhoWeAre = () => {
       </div>
   </div>
 
-  <div class="w3-container" className='area1-style' id="services">
+  <div class="about-container" className='area1-style' id="services">
     <h1 class="w3-xxxlarge w3-text-red"><b>Who We Are.</b></h1>
     <hr className= 'w3-round'/>
     <p className='about-bold-paragraph'>Our Mission: “Provide access to badminton 
@@ -83,7 +83,7 @@ const WhoWeAre = () => {
       className="about-photo-frame2"
       />
       
-        <div class="w3-container">
+        <div class="about-container">
           <h3>Team Bonding</h3>
           <p class="w3-opacity">Comaraderie</p>
           <p className='about-paragraph'>
@@ -100,7 +100,7 @@ const WhoWeAre = () => {
         src="../../images/davis_open_team.jpg"
          className='about-photo-frame2'
         />
-        <div class="w3-container">
+        <div class="about-container">
           <h3>Community</h3>
           <p class="w3-opacity">Leadership & Etiquette</p>
           <p className='about-paragraph'>As apart of the badminton community, 
@@ -118,7 +118,7 @@ const WhoWeAre = () => {
         src="../../images/diana_alpha.jpg"
          className='about-photo-frame2'
         />
-        <div class="w3-container">
+        <div class="about-container">
           <h3>Victory</h3>
           <p class="w3-opacity">Training & Competition</p>
           <p>Our vision for the club is to win the National Collegiate Championships. 
@@ -134,7 +134,7 @@ const WhoWeAre = () => {
         src="../../images/bucd_courts.jpg"
          className='about-photo-frame2'
         />
-        <div class="w3-container">
+        <div class="about-container">
           <h3>Resources</h3>
           <p class="w3-opacity">Birds, Courts, & Teammates!</p>
           <p>To help our members have a seamless experience while playing badminton, 
@@ -146,7 +146,7 @@ const WhoWeAre = () => {
     </div>
   </div>
   
-  <div class="w3-container" className='area1-style' id="designers">
+  <div class="about-container" className='area1-style' id="designers">
     <h1 class="w3-xxxlarge w3-text-red"><b>Events.</b></h1>
     <hr className= 'w3-round'/>
     <p className='about-bold-paragraph'>fun fun fun fun fun!</p>
@@ -165,7 +165,7 @@ const WhoWeAre = () => {
       className="about-photo-frame2"
       />
       
-        <div class="w3-container">
+        <div class="about-container">
           <h3>Weekly Practices</h3>
           <p class="w3-opacity">Mon, Wed, Fri @ Hickey Gym</p>
           <p className='about-paragraph'>
@@ -184,7 +184,7 @@ const WhoWeAre = () => {
         src="../../images/stanford.jpg"
          className='about-photo-frame2'
         />
-        <div class="w3-container">
+        <div class="about-container">
           <h3>School Meets</h3>
           <p class="w3-opacity">Home & Away Games against Schools.</p>
           <p className='about-paragraph'>
@@ -205,7 +205,7 @@ const WhoWeAre = () => {
         src="../../images/ucd_x_berk_social.png"
          className='about-photo-frame2'
         />
-        <div class="w3-container">
+        <div class="about-container">
           <h3>Bonding Events</h3>
           <p class="w3-opacity">Team Building and Lasting Memories</p>
           <p>
@@ -223,7 +223,7 @@ const WhoWeAre = () => {
         src="../../images/irvine2022_dinner.jpeg"
          className='about-photo-frame2'
         />
-        <div class="w3-container">
+        <div class="about-container">
           <h3>Irvine Trip</h3>
           <p class="w3-opacity">Annual Road Trip Tradition</p>
           <p>
@@ -243,7 +243,7 @@ const WhoWeAre = () => {
         src="../../images/boston_photo.jpg"
          className='about-photo-frame2'
         />
-        <div class="w3-container">
+        <div class="about-container">
           <h3>Collegiate Championships</h3>
           <p class="w3-opacity">Playing Against Other Schools in Boston</p>
           <p>
@@ -262,7 +262,7 @@ const WhoWeAre = () => {
         src="../../images/bucd_banquet_team.jpg"
          className='about-photo-frame2'
         />
-        <div class="w3-container">
+        <div class="about-container">
           <h3>Year-End-Banquet</h3>
           <p class="w3-opacity">Celebrating the Fun Times in the Year</p>
           <p>At the end of the year, the club hosts a member-exclusive year-end 
@@ -276,7 +276,7 @@ const WhoWeAre = () => {
       </div>
     </div>
     </div>
-    <div class="w3-container" className='area1-style' id="davis_open">
+    <div class="about-container" className='area1-style' id="davis_open">
     <h1 class="w3-xxxlarge w3-text-red"><b>Davis Open</b></h1>
     <hr className= 'w3-round'/>
     <p className='about-bold-paragraph'>
@@ -311,7 +311,7 @@ const WhoWeAre = () => {
       />
       </div>
   </div>
-  <p></p>
+  <p className='DO-info'>Davis Open Services:</p>
   
   <div class="w3-row-padding w3-grayscale">
     <div class="w3-col m4 w3-margin-bottom">
@@ -320,7 +320,7 @@ const WhoWeAre = () => {
             src="../../images/2022_davis_open_logo.png"
             className='about-photo-frame2'
             />
-            <div class="w3-container">
+            <div class="about-container">
             <h3>Shirts</h3>
             <p class="w3-opacity">Cute & Iconic : )</p>
             <p className='about-paragraph'>Each year, the Davis Open shirts are available to pre-order or purchase the day of the tournament. With incredibly cute designs coupled with unique pastel colors, the Davis Open cotton shirts have been an iconic part of this event.</p>
@@ -334,7 +334,7 @@ const WhoWeAre = () => {
       className="about-photo-frame2"
       />
       
-        <div class="w3-container">
+        <div class="about-container">
           <h3>Credit Union Center</h3>
           <p class="w3-opacity">Stadium Environment</p>
           <p className='about-paragraph'>
@@ -351,7 +351,7 @@ const WhoWeAre = () => {
         src="../../images/davis_open_team.jpg"
          className='about-photo-frame2'
         />
-        <div class="w3-container">
+        <div class="about-container">
           <h3>Student Ran</h3>
           <p class="w3-opacity">Club Coordinated</p>
           <p>Ran by the Badminton Club at UC Davis, all scheduling,
@@ -369,7 +369,7 @@ const WhoWeAre = () => {
         src="../../images/Davis_Open_Charlie.jpg"
          className='about-photo-frame2'
         />
-        <div class="w3-container">
+        <div class="about-container">
           <h3>Awards</h3>
           <p class="w3-opacity">Themed Trophies and Cash Prizes</p>
           <p>At this tournament, we offer unique Davis themed trophies that are truly 

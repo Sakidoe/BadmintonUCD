@@ -1,8 +1,71 @@
-import * as React from 'react'
+import React, { useEffect, useState } from "react";
+import Faq from "react-faq-component";
 import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
 import './joinbanner.css'
 import downloadFile from '../../../public/static/UCD_Physical.pdf' 
+const joinDataPage = {
+    title: "Useful Links",
+    rows: [
+        {
+            title: <h classname="FAQ-question">
+                    &nbsp; UCD Physical Form Download
+                   </h>,
+            content:<a href={downloadFile} onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">UCD Physical Form Download</a> ,
+        },
+        {
+            title: <h classname="FAQ-question">
+                    &nbsp; Fusion Insurance Link
+                  </h>,
+            content: <a href="https://rec.ucdavis.edu/" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Fusion Insurance Link</a>,
+        },
+        {
+            title: <h classname="FAQ-question">
+              &nbsp; Fusion Insurance Fee Waiver Link
+              </h>,
+            content:
+            <a href="https://campusrecreation.ucdavis.edu/fee-waiver" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Fusion Insurance Fee Waiver Link</a>,
+            styles: {
+              rowContentPaddingLeft: '50px',
+            }
+        },
+        {
+            title: <h classname="FAQ-question">
+              &nbsp; DoSportsEasy Links
+              </h>,
+            content:
+            <a href="https://campusrecreation.ucdavis.edu/dosportseasy" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">DoSportsEasy Link</a>,
+            styles: {
+              rowContentPaddingLeft: '50px',
+            }
+        },
+        {
+            title: <h classname="FAQ-question">
+              &nbsp; Team Policy Acknowledgement Form Link
+              </h>,
+            content:
+            <a href="https://forms.gle/Sw35m6A4aNDya26J7" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Team Policy Acknowledgement</a>,
+            styles: {
+              rowContentPaddingLeft: '50px',
+            }
+        },
+    ],
+  };
+  const styles = {
+    titleTextColor: "white",
+    bgColor: '#4F7094',
+    rowTitleColor: "white",
+    rowContentColor: '#cecece',
+    arrowColor: "white",
+    rowContentPaddingLeft: '50px',
+    rowContentPaddingRight: '50px',
+  };
+  
+  const config = {
+    animate: true,
+    // arrowIcon: "",
+    tabFocus: true
+  };
 const JoinBanner = () => {
     return (
 
@@ -18,7 +81,7 @@ const JoinBanner = () => {
                         <a href={downloadFile} onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">UCD Physical Form Download</a> 
                         <a href="https://rec.ucdavis.edu/" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Fusion Insurance Link</a> 
                         <a href="https://campusrecreation.ucdavis.edu/dosportseasy" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">DoSportsEasy Link</a> 
-                        <a href="https://forms.gle/Sw35m6A4aNDya26J7" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Team Policy Acknowledgement Form</a> 
+                        <a href="https://forms.gle/Sw35m6A4aNDya26J7" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Team Policy Acknowledgement</a> 
                     </div>
             </nav>
             <div class=' join-main' className='join-container-style'>
@@ -108,6 +171,14 @@ const JoinBanner = () => {
             </div>
             
         </div>
+        <div className="join-links-container">
+            <Faq
+                data={joinDataPage}
+                styles={styles}
+                config={config}
+                className="faq-title"
+            />
+            </div>
         </div>
     )
   }

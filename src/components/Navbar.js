@@ -81,7 +81,7 @@ const Navbar = () => {
           <option value="/join">JOIN</option>
           <option value="/FAQ">FAQ</option>
         </select>
-    </div>
+      </div>
     </div>
   )
 }

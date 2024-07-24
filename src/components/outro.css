@@ -1,28 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
 /* src/components/outro.css */
-body {
-    margin: 0;
-    padding: 0;
-    background: #ebebeb;
-  }
+
   
   .outro {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    box-sizing: border-box;
     background-color: #022851;
     padding: 50px 20px;
-    font-family: Arial, Helvetica, sans-serif;
     z-index: 0;
   }
   
-  .outro-paragraph {
+  .outro-section {
     width: 100%;
     text-align: center;
+    font-family:'Raleway', sans-serif;
+
   }
   
-  .outro h1 {
+  .outro-title {
     margin: 0;
     padding: 20px;
     font-size: 2.5rem;
@@ -30,14 +28,14 @@ body {
     text-align: center;
   }
   
-  .outro .p1 {
+  .outro-email {
     margin: 0;
     font-size: 1.5rem;
     color: #FFF9E5;
     text-align: center;
     padding: 20px;
   }
-  .outro .p2 {
+  .outro-dev {
     margin: 0;
     font-size: 0.75rem;
     color: #6bc9ff;
@@ -45,7 +43,7 @@ body {
     padding: 0px;
   }
   
-  .outro .p3 {
+  .outro-love {
     margin: 0;
     font-size: 0.75rem;
     color: #FFF9E5;
@@ -54,128 +52,59 @@ body {
   }
   
   /* Social Media Links */
-  .outro ul {
-    margin: 10px 0;
-    padding: 0;
+  .outro-links {
     display: flex;
     justify-content: center;
   }
   
-  .outro ul li {
-    list-style: none;
-  }
-  
-  .outro ul li a {
-    display: block;
-    position: relative;
-    width: 75px;
-    height: 75px;
-    line-height: 90px;
-    font-size: 40px;
-    text-align: center;
-    text-decoration: none;
-    color: #404040;
-    margin: 0 30px;
-    transition: 0.5s;
-  }
-  
-  .outro ul li a span {
-    position: absolute;
-    transition: transform 0.5s;
-  }
-  
-  .outro ul li a span:nth-child(1),
-  .outro ul li a span:nth-child(3) {
-    width: 100%;
-    height: 3px;
-    background: #404040;
-  }
-  
-  .outro ul li a span:nth-child(1) {
-    top: 0;
-    left: 0;
-    transform-origin: right;
-  }
-  
-  .outro ul li a:hover span:nth-child(1) {
-    transform: scaleX(0);
-    transform-origin: left;
-    transition: transform 0.5s;
-  }
-  
-  .outro ul li a span:nth-child(3) {
-    bottom: 0;
-    left: 0;
-    transform-origin: left;
-  }
-  
-  .outro ul li a:hover span:nth-child(3) {
-    transform: scaleX(0);
-    transform-origin: right;
-    transition: transform 0.5s;
-  }
-  
-  .outro ul li a span:nth-child(2),
-  .outro ul li a span:nth-child(4) {
-    width: 3px;
-    height: 100%;
-    background: #404040;
-  }
-  
-  .outro ul li a span:nth-child(2) {
-    top: 0;
-    left: 0;
-    transform: scale(0);
-    transform-origin: bottom;
-  }
-  
-  .outro ul li a:hover span:nth-child(2) {
-    transform: scale(1);
-    transform-origin: top;
-    transition: transform 0.5s;
-  }
-  
-  .outro ul li a span:nth-child(4) {
-    top: 0;
-    right: 0;
-    transform: scale(0);
-    transform-origin: top;
-  }
-  
-  .outro ul li a:hover span:nth-child(4) {
-    transform: scale(1);
-    transform-origin: bottom;
-    transition: transform 0.5s;
-  }
-  
-  .outro .facebook:hover {
-    color: #3b5998;
-  }
-  
-  .outro .facebook:hover span {
-    background: #3b5998;
-  }
-  
-  .outro .instagram:hover {
-    color: #c32aa3;
-  }
-  
-  .outro .instagram:hover span {
-    background: #c32aa3;
-  }
-  
-  .outro .discord:hover {
-    color: #553bc9;
-  }
-  
-  .outro .discord:hover span {
-    background: #553bc9;
-  }
-  
+
   .social-icon {
     width: 50px; /* Adjust size as needed */
-    height: auto;
+    margin: 0 auto;
     display: inline-block;
     vertical-align: middle;
   }
   
+
+
+  .rounded-button {
+    width: 60px;
+    height: 60px;
+    background: #ffffff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+    text-decoration: none;
+    transition: background 0.2s;
+    margin: 0 30px;
+  }
+  
+  .rounded-button:hover {
+    background: #5a5a5a;
+  }
+  
+  @media (max-width: 600px) {
+    .outro {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      background-color: #022851;
+      padding-left:0;
+      z-index: 0;
+    }
+    .outro-title {
+      padding: 0px;
+      font-size: 24pt;
+    }
+    .outro-email {
+      margin: 0;
+      font-size: 14pt;
+      color: #FFF9E5;
+      text-align: center;
+      padding: 20px;
+    }
+  }
