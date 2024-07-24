@@ -113,6 +113,10 @@
   padding: 0.01em 16px; 
   min-height:350px;
 }
+
+.about-container-sidebar{ 
+  padding: 0.01em 16px; 
+}
 .w3-panel { margin-top: 16px; margin-bottom: 16px; }
 
 .about-bar-block { 
@@ -311,6 +315,8 @@ h1, h2, h3, h4, h5, h6 {
 .w3-cell-row:before,.w3-cell-row:after,.w3-clear:after,.w3-clear:before,.w3-bar:before,.w3-bar:after{content:"";display:table;clear:both}
 .w3-row-padding,.w3-row-padding>.w3-half,.w3-row-padding>.w3-third,.w3-row-padding>.w3-twothird,.w3-row-padding>.w3-threequarter,.w3-row-padding>.w3-quarter,.w3-row-padding>.w3-col{padding:0 8px}
 
+.about-container-sidebar:after,.about-container-sidebar:before,.w3-panel:after,.w3-panel:before,.w3-row:after,.w3-row:before,.w3-row-padding:after,.w3-row-padding:before,
+.w3-cell-row:before,.w3-cell-row:after,.w3-clear:after,.w3-clear:before,.w3-bar:before,.w3-bar:after{content:"";display:table;clear:both}
 .DO-info{
   padding:20px;
   font-size:16pt;
