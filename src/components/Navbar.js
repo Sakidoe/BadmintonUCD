@@ -39,13 +39,18 @@ const Navbar = () => {
           />
         </Link>
       </div>
-      <div className={blogLink}>
+      {/* <div className={blogLink}>
         <Link to="/2023-2024" className={blogText}>
           2023-2024
         </Link>
-      </div>
+      </div> */}
       
       <div className={navLinks}>
+        <li className={navLinkItem}>
+        <Link to="/2023-2024" className={navLinkText}>
+          2023-2024
+        </Link>
+          </li>
         <li className={navLinkItem}>
           <Link to="/about" className={navLinkText}>
             About
