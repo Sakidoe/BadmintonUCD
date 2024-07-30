@@ -1,23 +1,38 @@
-.timeline-banner-container{
-    height:auto;
-    padding-top:5%;
+
+
+.yearpage-title-container{
 	font-weight: bold;
-}
-	/* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
-	height: 100vh;
-    position:absolute;
+	padding-top:5%;
+	padding-inline:13%;
+	align-items: center;
 }
 
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
+.yearpage-style-block{
+	box-sizing: content-box;
+	height: 0;
+	overflow: visible;
+	border: 0;
+	border-top: 1px solid #eee;
+	margin: 20px 0;
+	width: 100%;
+	border: 5px solid #1D4776;
+
+  }
+
+@media (max-width: 1300px) {
+	.yearpage-title-container{
+		font-weight: bold;
+		padding-top:5%;
+		padding-inline:5%;
+		align-items: center;
 	}
-	50% {
-		background-position: 100% 50%;
+}
+
+@media (max-width: 1000px) {
+	.yearpage-title-container{
+		font-weight: bold;
+		padding-top:5%;
+		padding-inline:8%;
+		align-items: center;
 	}
-	100% {
-		background-position: 0% 50%;
-	}
-} */
+}

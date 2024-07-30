@@ -55,10 +55,10 @@ const DavisOpen = () => {
   return (
     <div>
       <div className="davis-open-container">
-        <div className="davis-open">
+        <div className="officer-title-container">
           <h1 className="DO-title-text">24'-25' BCUCD OFFICERS</h1>
           <p className="DO-title-description">Introducing our 2024 - 2025 Badminton Club Officers! (Click on the photos!)</p>
-          <hr className="w3-round" />
+          <hr className='officer-title-bar'/>
         </div>
         <div className="DO-photo-container">
           <nav className="officer-cell" onClick={() => handleShowModal('ethan')}>

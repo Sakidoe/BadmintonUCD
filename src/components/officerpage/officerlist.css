@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 
-.davis-open {
+.officer-title-bar{
+
+    padding-left:100px;
+}
+.officer-title-container {
     text-align: left;
-    padding-left:8%;
+    padding-left:10%;
 }
 
 .DO-title-text {

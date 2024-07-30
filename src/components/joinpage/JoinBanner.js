@@ -11,20 +11,20 @@ const joinDataPage = {
             title: <h classname="FAQ-question">
                     &nbsp; UCD Physical Form Download
                    </h>,
-            content:<a href={downloadFile} onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">UCD Physical Form Download</a> ,
+            content:<a href={downloadFile} onclick="w3_close()" class="about-bar-item about-button about-hover-white">UCD Physical Form Download</a> ,
         },
         {
             title: <h classname="FAQ-question">
                     &nbsp; Fusion Insurance Link
                   </h>,
-            content: <a href="https://rec.ucdavis.edu/" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Fusion Insurance Link</a>,
+            content: <a href="https://rec.ucdavis.edu/" onclick="w3_close()" class="about-bar-item about-button about-hover-white">Fusion Insurance Link</a>,
         },
         {
             title: <h classname="FAQ-question">
               &nbsp; Fusion Insurance Fee Waiver Link
               </h>,
             content:
-            <a href="https://campusrecreation.ucdavis.edu/fee-waiver" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Fusion Insurance Fee Waiver Link</a>,
+            <a href="https://campusrecreation.ucdavis.edu/fee-waiver" onclick="w3_close()" class="about-bar-item about-button about-hover-white">Fusion Insurance Fee Waiver Link</a>,
             styles: {
               rowContentPaddingLeft: '50px',
             }
@@ -34,7 +34,7 @@ const joinDataPage = {
               &nbsp; DoSportsEasy Links
               </h>,
             content:
-            <a href="https://campusrecreation.ucdavis.edu/dosportseasy" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">DoSportsEasy Link</a>,
+            <a href="https://campusrecreation.ucdavis.edu/dosportseasy" onclick="w3_close()" class="about-bar-item about-button about-hover-white">DoSportsEasy Link</a>,
             styles: {
               rowContentPaddingLeft: '50px',
             }
@@ -44,7 +44,7 @@ const joinDataPage = {
               &nbsp; Team Policy Acknowledgement Form Link
               </h>,
             content:
-            <a href="https://forms.gle/Sw35m6A4aNDya26J7" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Team Policy Acknowledgement</a>,
+            <a href="https://forms.gle/Sw35m6A4aNDya26J7" onclick="w3_close()" class="about-bar-item about-button about-hover-white">Team Policy Acknowledgement</a>,
             styles: {
               rowContentPaddingLeft: '50px',
             }
@@ -71,17 +71,16 @@ const JoinBanner = () => {
 
         <div className="join-page-container">
              <nav class="join-sidebar-nav join-sidebar" id="mySidebar"><br />
-                <a href="javascript:void(0)" onclick="w3_close()" class="sidebar-ref w3-button w3-hide-large w3-display-topleft" >Close Menu</a>
                     <h3 class="join-sidebar-fontsize">
                         <b>
                             Join Page
                         </b>
                     </h3>
                     <div class="w3-bar-block">
-                        <a href={downloadFile} onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">UCD Physical Form Download</a> 
-                        <a href="https://rec.ucdavis.edu/" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Fusion Insurance Link</a> 
-                        <a href="https://campusrecreation.ucdavis.edu/dosportseasy" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">DoSportsEasy Link</a> 
-                        <a href="https://forms.gle/Sw35m6A4aNDya26J7" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Team Policy Acknowledgement</a> 
+                        <a href={downloadFile} onclick="w3_close()" class="about-bar-item about-button about-hover-white">UCD Physical Form Download</a> 
+                        <a href="https://rec.ucdavis.edu/" class="about-bar-item about-button about-hover-white">Fusion Insurance Link</a> 
+                        <a href="https://campusrecreation.ucdavis.edu/dosportseasy" onclick="w3_close()" class="about-bar-item about-button about-hover-white">DoSportsEasy Link</a> 
+                        <a href="https://forms.gle/Sw35m6A4aNDya26J7" onclick="w3_close()" class="about-bar-item about-button about-hover-white">Team Policy Acknowledgement</a> 
                     </div>
             </nav>
             <div class=' join-main' className='join-container-style'>
