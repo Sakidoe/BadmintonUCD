@@ -91,3 +91,16 @@
     aspect-ratio: 1 / 1;
   }
 }
+
+@media (max-width: 767px) {
+  .timeline-container {
+    background:white;
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 0 4rem;
+    box-sizing: border-box;
+  }
+  .timeline-gallery {
+    padding-left:0;
+  }
+}
