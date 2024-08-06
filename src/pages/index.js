@@ -6,19 +6,17 @@ import Introduction from '../components/mainpage/Introduction'
 import { StaticImage } from 'gatsby-plugin-image'
 import AnimatedText from '../components/mainpage/AnimatedText'
 import './index.css'
-
+import { Link } from 'gatsby'
 const IndexPage = () => {
   return (
     <div className="mainpage-controls">
       <Layout pageTitle>
           <div className='front-page-banner'>
+            <div class="typewriter">
+              <h1>Badminton @ UC Davis</h1>
+            </div>
             
           </div>
-          {/* <StaticImage
-            alt="The 23'-24' Badminton UCD Team Photo"
-            src="../images/bucd_formal_funny.jpg"
-            className="front-page-banner"
-          /> */}
         <Banner />
         <Introduction />
       </Layout>

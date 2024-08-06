@@ -2,8 +2,17 @@ import * as React from 'react'
 import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
 import './whoweare.css'
+import { Slide } from 'react-slideshow-image';
+import 'react-slideshow-image/dist/styles.css';
 
 const WhoWeAre = () => {
+
+  const images = [
+    "../../images/ray.jpeg",
+    "../../images/Davis_Open_Xin.jpg",
+    "../../images/2022_team_fullpic.jpg",
+  ];
+
   return (
     <div>
         {/*nav side bar*/}
@@ -25,7 +34,46 @@ const WhoWeAre = () => {
     <h1 class="about-xxxlarge-font about-font-color"><b>Showcase.</b></h1>
     <hr />
   </div>
-  <div class="about-showcase-grid">
+  {/*showcase*/}
+  <Slide>
+    <div className="each-slide-effect">
+      <StaticImage
+        src="../../images/ray.jpeg"
+        className='about-photo-frame1'
+        />
+    </div>
+    <div className="each-slide-effect">
+      <StaticImage
+        src="../../images/Davis_Open_Xin.jpg"
+        className='about-photo-frame1'
+        />
+    </div>
+    <div className="each-slide-effect">
+      <StaticImage
+        src="../../images/2022_team_fullpic.jpg"
+        className='about-photo-frame1'
+        />
+    </div>
+    <div className="each-slide-effect">
+      <StaticImage
+        src="../../images/bucd_bsc_social.jpeg"
+        className='about-photo-frame1'
+        />
+    </div>
+    <div className="each-slide-effect">
+      <StaticImage
+        src="../../images/bucd_kevin_smash.jpg"
+        className='about-photo-frame1'
+        />
+    </div>
+    <div className="each-slide-effect">
+      <StaticImage
+        src="../../images/bucd_formal_funny.jpg"
+        className='about-photo-frame1'
+        />
+    </div>
+    </Slide>
+  {/* <div class="about-showcase-grid">
     <div class="showcase-div1">
       <StaticImage
       src="../../images/ray.jpeg"
@@ -62,7 +110,7 @@ const WhoWeAre = () => {
        className='about-photo-frame1'
       />
       </div>
-  </div>
+  </div> */}
 
   <div class="about-container" className='area1-style' id="services">
     <h1 class="about-xxxlarge-font about-font-color"><b>Who We Are.</b></h1>
@@ -127,7 +175,7 @@ const WhoWeAre = () => {
         </div>
       </div>
     </div>
-    <div class="about-column-settings  ">
+    {/* <div class="about-column-settings  ">
       <div class="about-section-background">
       <StaticImage
         src="../../images/bucd_courts.jpg"
@@ -142,7 +190,7 @@ const WhoWeAre = () => {
              for new gear.</p>
         </div>
       </div>
-    </div>
+    </div> */}
   </div>
   
   <div class="about-container" className='area1-style' id="designers">
@@ -160,7 +208,7 @@ const WhoWeAre = () => {
     <div class="about-column-settings  ">
       <div class="about-section-background">
       <StaticImage
-      src="../../images/sid_jon.png"
+      src="../../images/wild_ethan.jpg"
       className="about-photo-frame2"
       />
       
@@ -191,9 +239,7 @@ const WhoWeAre = () => {
             sometimes even trimeets. Each school team sends in a team 
             ranking and a roster list, where members with the same 
             rankings in their respective events play against each other 
-            for points. Most points out of the schools wins! The 
-            Badminton Club at UC Davis will host these meets sometimes, 
-            but we also take team trips to other colleges and gyms to be hosted!
+            for points. Most points out of the schools wins! 
             </p>
         </div>
       </div>
@@ -268,8 +314,7 @@ const WhoWeAre = () => {
             banquet to commemorate the memories and friends made throughout the year. 
             Catered by restaurants like Panda Express, Chipotle, or Guads Tacos & Beer, 
             it is a celebratory event that all members come formally dressed to attend. 
-            Events include saying goodbye to graduating members, unveiling new officers,
-             and presenting superlatives.
+            
              </p>
         </div>
       </div>
@@ -313,7 +358,7 @@ const WhoWeAre = () => {
   <p className='DO-info'>Davis Open Services:</p>
   
   <div class="about-row-padding">
-    <div class="about-column-settings  ">
+    {/* <div class="about-column-settings  ">
         <div class="about-section-background">
             <StaticImage
             src="../../images/2022_davis_open_logo.png"
@@ -325,7 +370,7 @@ const WhoWeAre = () => {
             <p className='about-paragraph'>Each year, the Davis Open shirts are available to pre-order or purchase the day of the tournament. With incredibly cute designs coupled with unique pastel colors, the Davis Open cotton shirts have been an iconic part of this event.</p>
             </div>
         </div>
-        </div>
+        </div> */}
     <div class="about-column-settings  ">
       <div class="about-section-background">
       <StaticImage
@@ -371,9 +416,9 @@ const WhoWeAre = () => {
         <div class="about-container">
           <h3>Awards</h3>
           <p class="about-opacity">Themed Trophies and Cash Prizes</p>
-          <p>At this tournament, we offer unique Davis themed trophies that are truly 
-            unique to earn. Competitors from A-consolations, B, C, and D flight levels 
-            may earn a trophy, while the 1st and 2nd place of A receive cash prizes!
+          <p>
+            From Davis-themed trophies, cash prizes, and shirts, the Davis Open offers
+            many unique awards for it's players!
           </p>
         </div>
       </div>

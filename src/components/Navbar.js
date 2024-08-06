@@ -1,3 +1,5 @@
+import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
+import { ChevronDownIcon } from '@heroicons/react/20/solid'
 import * as React from 'react'
 import { Link } from 'gatsby'
 import { StaticImage} from 'gatsby-plugin-image'
@@ -87,6 +89,7 @@ const Navbar = () => {
           <option value="/FAQ">FAQ</option>
         </select>
       </div>
+      
     </div>
   )
 }

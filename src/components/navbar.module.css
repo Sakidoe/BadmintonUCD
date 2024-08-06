@@ -43,8 +43,9 @@
   .navLinkText {
     text-decoration: none;
     color: white; /* To make the text stand out against the blue background */
-    font-family: Arial, sans-serif; /* Set font to Arial */
+    font-family: 'raleway', sans-serif; /* Set font to Arial */
     text-align: right;
+    font-weight:550;
   }
 
   .blogLink {
@@ -58,7 +59,7 @@
   .blogText{
     text-decoration: none;
     color: white; /* To make the text stand out against the blue background */
-    font-family: Arial, sans-serif; /* Set font to Arial */
+    font-family: 'raleway', sans-serif; /* Set font to Arial */
     text-align: right;
   }
 

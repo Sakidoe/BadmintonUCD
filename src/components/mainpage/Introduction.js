@@ -21,7 +21,7 @@ const Introduction = () => {
                 src="../../images/BUCD_cow.png"
                 className="button-image"
               />
-              <span className="text">A B O U T</span>
+              <span className="text ">A B O U T </span>
               <span className="circle"></span>
               <svg xmlns="http://www.w3.org/2000/svg" className="arr-2" viewBox="0 0 24 24">
                 <path
