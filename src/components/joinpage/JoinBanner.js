@@ -4,8 +4,9 @@ import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
 import './joinbanner.css'
 import downloadFile from '../../../public/static/UCD_Physical.pdf' 
-const joinDataPage = {
-    title: "Useful Links",
+
+
+const ucdPhysForm = {
     rows: [
         {
             title: <h classname="FAQ-question">
@@ -13,59 +14,62 @@ const joinDataPage = {
                    </h>,
             content:<a href={downloadFile} onclick="w3_close()" class="about-bar-item about-button about-hover-white">UCD Physical Form Download</a> ,
         },
+    ],
+  };
+
+  const fusionInsuranceLink = {
+    rows: [
         {
             title: <h classname="FAQ-question">
                     &nbsp; Fusion Insurance Link
-                  </h>,
-            content: <a href="https://rec.ucdavis.edu/" onclick="w3_close()" class="about-bar-item about-button about-hover-white">Fusion Insurance Link</a>,
+                   </h>,
+            content:<a href="https://rec.ucdavis.edu/" target="_blank" onclick="w3_close()" class="about-bar-item about-button about-hover-white">Fusion Insurance Link</a> ,
         },
         {
             title: <h classname="FAQ-question">
-              &nbsp; Fusion Insurance Fee Waiver Link
-              </h>,
-            content:
-            <a href="https://campusrecreation.ucdavis.edu/fee-waiver" onclick="w3_close()" class="about-bar-item about-button about-hover-white">Fusion Insurance Fee Waiver Link</a>,
-            styles: {
-              rowContentPaddingLeft: '50px',
-            }
+                    &nbsp; Fusion Insurance Waiver Link
+                   </h>,
+            content:<a href="https://campusrecreation.ucdavis.edu/fee-waiver" target="_blank" onclick="w3_close()" class="about-bar-item about-button about-hover-white">Fusion Insurance Waiver Link</a> ,
         },
+    ],
+  };
+  const teamAckForm = {
+    rows: [
         {
             title: <h classname="FAQ-question">
-              &nbsp; DoSportsEasy Links
-              </h>,
-            content:
-            <a href="https://campusrecreation.ucdavis.edu/dosportseasy" onclick="w3_close()" class="about-bar-item about-button about-hover-white">DoSportsEasy Link</a>,
-            styles: {
-              rowContentPaddingLeft: '50px',
-            }
+                    &nbsp; Team Acknowledgement Form
+                   </h>,
+            content:<a href="https://forms.gle/Sw35m6A4aNDya26J7" target="_blank" onclick="w3_close()" class="about-bar-item about-button about-hover-white">Team Acknowledgement Form Link</a> ,
         },
+    ],
+  };
+  const dseForm= {
+    rows: [
         {
             title: <h classname="FAQ-question">
-              &nbsp; Team Policy Acknowledgement Form Link
-              </h>,
-            content:
-            <a href="https://forms.gle/Sw35m6A4aNDya26J7" onclick="w3_close()" class="about-bar-item about-button about-hover-white">Team Policy Acknowledgement</a>,
-            styles: {
-              rowContentPaddingLeft: '50px',
-            }
+                    &nbsp; DoSportsEasy Link
+                   </h>,
+            content:<a href="https://campusrecreation.ucdavis.edu/dosportseasy" target="_blank" onclick="w3_close()" class="about-bar-item about-button about-hover-white">DSE Link</a> ,
         },
     ],
   };
   const styles = {
     titleTextColor: "white",
-    bgColor: '#4F7094',
+    bgColor: '#9AADC2',
     rowTitleColor: "white",
     rowContentColor: '#cecece',
     arrowColor: "white",
     rowContentPaddingLeft: '50px',
     rowContentPaddingRight: '50px',
+    rowContentPaddingTop: '0px',
   };
   
   const config = {
     animate: true,
-    // arrowIcon: "",
     tabFocus: true
   };
+
+
 const JoinBanner = () => {
     return (
 
@@ -78,9 +82,9 @@ const JoinBanner = () => {
                     </h3>
                     <div class="w3-bar-block">
                         <a href={downloadFile} onclick="w3_close()" class="about-bar-item about-button about-hover-white">UCD Physical Form Download</a> 
-                        <a href="https://rec.ucdavis.edu/" class="about-bar-item about-button about-hover-white">Fusion Insurance Link</a> 
-                        <a href="https://campusrecreation.ucdavis.edu/dosportseasy" onclick="w3_close()" class="about-bar-item about-button about-hover-white">DoSportsEasy Link</a> 
-                        <a href="https://forms.gle/Sw35m6A4aNDya26J7" onclick="w3_close()" class="about-bar-item about-button about-hover-white">Team Policy Acknowledgement</a> 
+                        <a href="https://rec.ucdavis.edu/" target="_blank" class="about-bar-item about-button about-hover-white">Fusion Insurance Link</a> 
+                        <a href="https://campusrecreation.ucdavis.edu/dosportseasy" target="_blank" onclick="w3_close()" class="about-bar-item about-button about-hover-white">DoSportsEasy Link</a> 
+                        <a href="https://forms.gle/Sw35m6A4aNDya26J7" target="_blank" onclick="w3_close()" class="about-bar-item about-button about-hover-white">Team Policy Acknowledgement</a> 
                     </div>
             </nav>
             <div class=' join-main' className='join-container-style'>
@@ -92,7 +96,8 @@ const JoinBanner = () => {
             </div>
             <p className='join-bold-paragraph'>
                 As fall quarter approaches, we would like to let everyone know the steps 
-                for becoming a member for the upcoming 2024-2025 school year!
+                for becoming a member for the upcoming 2024-2025 school year! (Open to all
+                current undergraduate and graduate student in UC Davis)
                 </p>
             <div class="join-row-padding">
                 <div class="join-col m4">
@@ -106,7 +111,14 @@ const JoinBanner = () => {
                         providers. If you wish to complete it at the UC Davis student health center, you can make 
                         an appointment through Health-e-Messaging or by calling (530) 752-2349.
                         </p>
-                        
+                        <div className="join-links-container">
+                        <Faq
+                            data={ucdPhysForm}
+                            styles={styles}
+                            config={config}
+                            className="faq-title"
+                        />
+                        </div>
                     </div>
                 </div>
             </div>
@@ -122,6 +134,7 @@ const JoinBanner = () => {
                         When sending in your dues please comment
                         "Badminton Dues - [Your Name]". Note that dues are NON-REFUNDABLE.</p>
                     </div>
+                    
                 </div>
                 </div>
                 <div class="join-col m4">
@@ -135,7 +148,14 @@ const JoinBanner = () => {
                         and pay the insurance fee. There is also a waiver for for the Fusion fee provided 
                         by the school (highly recommend and only takes 5 minutes to fill out!). 
                     </p>
-                    
+                    <div className="join-links-container">
+                        <Faq
+                            data={fusionInsuranceLink}
+                            styles={styles}
+                            config={config}
+                            className="faq-title"
+                        />
+                        </div>
                     </div>
                 </div>
                 </div>
@@ -149,6 +169,14 @@ const JoinBanner = () => {
                             understood our Constitution and are accepting of your responsibilities as an active member 
                             of the Badminton Club at UC Davis. 
                         </p>
+                        <div className="join-links-container">
+                        <Faq
+                            data={teamAckForm}
+                            styles={styles}
+                            config={config}
+                            className="faq-title"
+                        />
+                        </div>
                     </div>
                 </div>
                 </div>
@@ -163,21 +191,36 @@ const JoinBanner = () => {
                         scroll down to "Badminton" and click "Registration." Sign in to your UC Davis account and then 
                         fill out the registration form.
                         </p>
+                        <div className="join-links-container">
+                        <Faq
+                            data={dseForm}
+                            styles={styles}
+                            config={config}
+                            className="faq-title"
+                        />
+                        </div>
                     </div>
                 </div>
                 </div>
-
+                <div class="join-col m4">
+                <div class="join-background1">
+                    <div class="join-container">
+                    <h3>6. Questions / Concerns</h3>
+                    <p className="join-opacity">For Prices, form completion, etc.</p>
+                    <p className='join-paragraph'>
+                        For whatever reason if the price of quarterly/yearly dues becomes an issue,
+                        or there are difficulties with the forms, please contact any of the officers on 
+                        <a href="https://discord.gg/bssTuRwBZx" class='join-link-highlight'> discord</a>, the 
+                        <a href="https://www.instagram.com/badminton_ucd/" class='join-link-highlight'> instagram page</a>, or email
+                         <a href= "mailto: davisbadminton@gmail.com" class='join-link-highlight'> davisbadminton@gmail.com</a> ! We
+                        do not want these issues to stop you from participating in our events, so please let us help you with a solution!
+                        </p>
+                    </div>
+                </div>
+                </div>
             </div>
             
         </div>
-        <div className="join-links-container">
-            <Faq
-                data={joinDataPage}
-                styles={styles}
-                config={config}
-                className="faq-title"
-            />
-            </div>
         </div>
     )
   }

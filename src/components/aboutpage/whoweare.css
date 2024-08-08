@@ -129,8 +129,13 @@
 
 
 .about-xxxlarge-font { 
+  padding-top:45pt;
   font-size: 48px!important; 
 }
+.about-showcase-font{
+  font-size:45px;
+}
+
 
 .about-font-color{ 
   color: #1D4776!important; 
@@ -192,7 +197,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   
   .about-showcase-grid {
-    display: grid;
+    display: none;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-column-gap: 10px;
@@ -251,6 +256,23 @@ h1, h2, h3, h4, h5, h6 {
   font-weight:bold;
 }
 
+.each-slide-effect > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 550px;
+}
+.test-div{
+  max-width:1000px;
+}
+.each-slide-effect span {
+  padding: 20px;
+  font-size: 20px;
+  background: #efefef;
+  text-align: center;
+}
+
 @media (min-width: 1000px) {
   .about-column-settings {
     flex: 0 1 33.333%; /* Three columns */
@@ -277,7 +299,12 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: 0!important; 
   }
 }
-
+@media (min-width: 1700px) {
+  .about-photo-frame2{
+    width:100%;
+    max-height:400px;
+}
+}
 @media (min-width: 1000px) {
   .about-column-settings { 
       width: 33.33333%; 
@@ -285,6 +312,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 601px) {
+  .test-div{
+    display:none;
+  }
   .about-showcase-grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -299,19 +329,4 @@ h1, h2, h3, h4, h5, h6 {
     grid-column-gap: 10px;
     grid-row-gap: 10px;
   }
-}
-
-.each-slide-effect > div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-size: cover;
-  height: 600px;
-}
-
-.each-slide-effect span {
-  padding: 20px;
-  font-size: 20px;
-  background: #efefef;
-  text-align: center;
 }

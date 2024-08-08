@@ -22,8 +22,8 @@ const WhoWeAre = () => {
             </div>
             <div class="about-bar-block">
                 <a href="#"  class="about-bar-item about-button about-hover-white">Home</a> 
-                <a href="#services"  class="about-bar-item about-button about-hover-white">Who We Are</a> 
-                <a href="#designers"  class="about-bar-item about-button about-hover-white">Events</a> 
+                <a href="#who-we-are"  class="about-bar-item about-button about-hover-white">Who We Are</a> 
+                <a href="#events"  class="about-bar-item about-button about-hover-white">Events</a> 
                 <a href="#davis_open" class="about-bar-item about-button about-hover-white">Davis Open</a> 
             </div>
         </nav>
@@ -31,11 +31,12 @@ const WhoWeAre = () => {
 
   <div class="about-container" className='about-class-style' id="showcase">
     <h1 class="about-large-font"><b>Badminton Club at UC Davis</b></h1>
-    <h1 class="about-xxxlarge-font about-font-color"><b>Showcase.</b></h1>
+    <h1 class="about-showcase-font about-font-color"><b>Showcase.</b></h1>
     <hr />
   </div>
   {/*showcase*/}
-  <Slide>
+  <div className="test-div">
+  <Slide className="about-slideshow">
     <div className="each-slide-effect">
       <StaticImage
         src="../../images/ray.jpeg"
@@ -73,7 +74,8 @@ const WhoWeAre = () => {
         />
     </div>
     </Slide>
-  {/* <div class="about-showcase-grid">
+    </div>
+  <div class="about-showcase-grid">
     <div class="showcase-div1">
       <StaticImage
       src="../../images/ray.jpeg"
@@ -110,10 +112,10 @@ const WhoWeAre = () => {
        className='about-photo-frame1'
       />
       </div>
-  </div> */}
+  </div> 
 
-  <div class="about-container" className='area1-style' id="services">
-    <h1 class="about-xxxlarge-font about-font-color"><b>Who We Are.</b></h1>
+  <div class="about-container" className='area1-style' id="who-we-are">
+    <h1 class="about-xxxlarge-font about-font-color"><b>Who We Are</b></h1>
     <hr />
     <p className='about-bold-paragraph'>Our Mission: “Provide access to badminton 
     facilities for students to come together, fostering good sportsmanship and 
@@ -193,8 +195,8 @@ const WhoWeAre = () => {
     </div> */}
   </div>
   
-  <div class="about-container" className='area1-style' id="designers">
-    <h1 class="about-xxxlarge-font about-font-color"><b>Events.</b></h1>
+  <div class="about-container" className='area1-style' id="events">
+    <h1 class="about-xxxlarge-font about-font-color"><b>Events</b></h1>
     <hr />
     <p className='about-bold-paragraph'>fun fun fun fun fun!</p>
     <p className='about-paragraph'>

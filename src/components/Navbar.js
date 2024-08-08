@@ -48,6 +48,11 @@ const Navbar = () => {
       </div> */}
       
       <div className={navLinks}>
+      <li className={navLinkItem}>
+        <Link to="/" className={navLinkText}>
+          Home
+        </Link>
+          </li>
         <li className={navLinkItem}>
         <Link to="/2023-2024" className={navLinkText}>
           2023-2024
@@ -78,7 +83,10 @@ const Navbar = () => {
 
     
     <div className={smallScreenDropdown}>
-      <h1 className={ssDropDownTitle}>Badminton at UC Davis</h1>
+    <Link to="/" className={navLinkText}>
+          Badminton at UC Davis
+      </Link>
+      {/*<h1 className={ssDropDownTitle}>Badminton at UC Davis</h1>*/}
         <select className={ssDropDownStyle} onChange={handleNavigation}>
           <option value="/">☰</option>
           <option value="/">Home</option>

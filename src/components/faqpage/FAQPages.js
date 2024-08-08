@@ -22,7 +22,7 @@ const datapage = {
           title: <h classname="FAQ-question">
                   &nbsp; How much are our practices?
                 </h>,
-          content: 'Here are our payments info: Zelle: davisbadminton@gmail.com <br /> Year     Membership (UCD students only): $175 <br /> Quarter Membership (UCD students only): $65 <br /> 1-Time Drop-In: 10$ <br />',
+          content: 'Here are our payments info: Zelle: davisbadminton@gmail.com <br /> Year     Membership (UCD students only): $175 <br /> Quarter Membership (UCD students only): $65 <br /> 1-Time Drop-In: 15$ <br />',
       },
       {
           title: <h classname="FAQ-question">
@@ -34,6 +34,16 @@ const datapage = {
             rowContentPaddingLeft: '50px',
           }
       },
+      {
+        title: <h classname="FAQ-question">
+          &nbsp; How can you contact officers of the Badminton Club?
+          </h>,
+        content:
+        "If you would like to directly contact any of us, in person will always be the best. <br /> If this isn't possible, you can reach us individually or all together through discord! You can also DM us @badminton_ucd on IG, <br />and email us at davisbadminton@gmail.com",
+        styles: {
+          rowContentPaddingLeft: '50px',
+        }
+    },
   ],
 };
 

@@ -2,7 +2,10 @@
 
 /* src/components/outro.css */
 
-  
+a {
+  color: #6bc9ff;
+  text-decoration: none; /* no underline */
+}
   .outro {
     display: flex;
     justify-content: center;

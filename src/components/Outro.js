@@ -33,8 +33,8 @@ const Outro = () => {
             </a>
           </li>
         </ul>
-        <p className="outro-email">Question? Email us at davisbadminton@gmail.com</p>
-        <p className="outro-dev">Developed by Richard Huang, Publicity Coordinator</p>
+        <p className="outro-email">Question? Email us at <a href= "mailto: davisbadminton@gmail.com"> davisbadminton@gmail.com</a></p>
+        <p className="outro-dev"><a href="https://www.linkedin.com/in/ridhuang/" target='_blank'>Developed by Richard Huang, Publicity Coordinator</a></p>
         <p className="outro-love">With 💜 from the officers of the Badminton Club at UC Davis</p>
       </div>
     </div>

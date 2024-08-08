@@ -127,12 +127,12 @@ const DavisOpen = () => {
               />
               <div className="officer-photo-overlay">
                 <p className="officer-name">Joy Yang</p>
-                <p className="officer-title-hovering">Secretary</p>
+                <p className="officer-title-hovering">Secretary & Safety Officer</p>
  
               </div>
             </div>
             <p className="officer-name">Joy Yang</p>
-            <p className="officer-title">Secretary</p>
+            <p className="officer-title">Secretary & Safety Officer</p>
             <p className="officer-info">Year: Senior</p>
             <p className="officer-info">Major: MPB</p>
           </nav>
@@ -298,12 +298,12 @@ const DavisOpen = () => {
               />
               <div className="officer-photo-overlay">
                 <p className="officer-name">Jeremy Leung</p>
-                <p className="officer-title-hovering">Travel Coordinator</p>
+                <p className="officer-title-hovering">Travel Coordinator & Safety Officer</p>
               </div>
 
             </div>
             <p className="officer-name">Jeremy Leung</p>
-                <p className="officer-title">Travel Coordinator</p>
+                <p className="officer-title">Travel Coordinator & Safety Officer</p>
                 <p className="officer-info">Year: Junior</p>
                 <p className="officer-info">Major: Animal Science</p>
           </nav>
