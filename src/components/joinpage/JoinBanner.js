@@ -27,7 +27,7 @@ const ucdPhysForm = {
         },
         {
             title: <h classname="FAQ-question">
-                    &nbsp; Fusion Insurance Waiver Link
+                    &nbsp; Fusion Waiver Link
                    </h>,
             content:<a href="https://campusrecreation.ucdavis.edu/fee-waiver" target="_blank" onclick="w3_close()" class="about-bar-item about-button about-hover-white">Fusion Insurance Waiver Link</a> ,
         },
@@ -72,14 +72,13 @@ const ucdPhysForm = {
 
 const JoinBanner = () => {
     return (
-
         <div className="join-page-container">
-             <nav class="join-sidebar-nav join-sidebar" id="mySidebar"><br />
-                    <h3 class="join-sidebar-fontsize">
-                        <b>
-                            Join Page
-                        </b>
-                    </h3>
+            <nav class="join-sidebar-nav join-sidebar" id="mySidebar"><br />
+                <h3 class="join-sidebar-fontsize">
+                    <b>
+                        Join Page
+                    </b>
+                </h3>
                     <div class="w3-bar-block">
                         <a href={downloadFile} onclick="w3_close()" class="about-bar-item about-button about-hover-white">UCD Physical Form Download</a> 
                         <a href="https://rec.ucdavis.edu/" target="_blank" class="about-bar-item about-button about-hover-white">Fusion Insurance Link</a> 

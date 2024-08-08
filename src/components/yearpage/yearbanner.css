@@ -43,6 +43,7 @@
 	background-color: white;
 	font-size:30pt;
 	color: #022851;
+	font-weight: bold;
 	font-family: 'raleway', sans-serif;
 	overflow: hidden; /* Ensures the content is not revealed until the animation */
 	border-right: .15em solid orange; /* The typwriter cursor */
@@ -66,7 +67,7 @@
 	50% { border-color: orange }
   }
 .yearpage-banner {
-	padding-top:5%;
+	padding-top:10%;
 	max-height:500px;
 	position: relative;
 	width: 100%;

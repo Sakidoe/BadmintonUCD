@@ -120,9 +120,9 @@
 .join-background1{
     color: #000!important;
     background-color: #f1f1f1!important;
-    min-height:400px;
+    min-height:500px;
     }
-@media (min-width: 801px) {
+@media (min-width: 901px) {
     .join-col.m4{ 
         width: 33.33333%; 
     }
