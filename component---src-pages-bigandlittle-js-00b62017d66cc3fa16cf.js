@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkbadminton_ucd=self.webpackChunkbadminton_ucd||[]).push([[581],{4369:function(e,t,n){n.r(t),n.d(t,{default:function(){return c}});var a=n(7294),l=n(8825);var i=()=>a.createElement("div",{className:"biglittle-container"},a.createElement("h1",{className:"biglittle-header"},"Coming soon"));var c=()=>a.createElement(l.Z,{pageTitle:"BigLittle"},a.createElement(i,null))}}]);
+//# sourceMappingURL=component---src-pages-bigandlittle-js-00b62017d66cc3fa16cf.js.map
