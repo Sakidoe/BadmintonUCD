@@ -58,6 +58,11 @@ const Navbar = () => {
           2023-2024
         </Link>
           </li>
+        {/* <li className={navLinkItem}>
+          <Link to ="/bigandlittle" className={navLinkText}>
+            Big/Little
+          </Link>
+        </li> */}
         <li className={navLinkItem}>
           <Link to="/about" className={navLinkText}>
             About
@@ -91,6 +96,7 @@ const Navbar = () => {
           <option value="/">☰</option>
           <option value="/">Home</option>
           <option value="/2023-2024">2023-2024</option>
+          {/* <option value="/bigandlittle">BIG/LITTLE</option> */}
           <option value="/about">ABOUT</option>
           <option value="/officers">OFFICERS</option>
           <option value="/join">JOIN</option>
