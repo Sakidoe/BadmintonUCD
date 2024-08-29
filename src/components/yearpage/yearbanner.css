@@ -72,7 +72,6 @@
 	position: relative;
 	width: 100%;
 	height: 80vh; /* Adjust height as needed */
-	background: url(../../images/2024team_grads.jpg) no-repeat center center;
 	background-size: cover;
 	opacity: 0.9;
 	display: flex;

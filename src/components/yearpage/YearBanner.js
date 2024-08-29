@@ -1,12 +1,26 @@
 //Banner Title for the Year 2023-2024 page.
 import * as React from 'react'
 import './yearbanner.css'
+import yearBannerImage from '../../images/2024team_grads.jpg';
 
+const yearBannerStyle = {
+  backgroundImage: `url(${yearBannerImage})`,
+  backgroundPosition: 'center center',
+  backgroundRepeat: 'no-repeat',
+  backgroundSize: 'cover',
+  height: '80vh',
+  width: '100%',
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center',
+  textAlign: 'center',
+  opacity: 0.9,
+}
 
 const YearBanner = () => {
   return (
     <div>
-    <div className='yearpage-banner'>
+    <div className='yearpage-banner' style={yearBannerStyle}>
       <div class="yearpage-typewriter">
         <h1>Welcome to the 2023-2024</h1>
         <h1>Collection!</h1>
@@ -17,11 +31,6 @@ const YearBanner = () => {
       <hr className= 'yearpage-style-block'/>
     </div>
     </div>
-      // <div className="yearpage-title-container">
-      //   <h1 className="DO-title-text">Welcome to the 2023-2024 Collection!</h1>
-      //   <p className="DO-title-description">Press Any Image for More Info</p>
-      //   <hr className= 'yearpage-style-block'/>
-      // </div>
   )
 }
 

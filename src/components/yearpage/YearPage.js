@@ -138,7 +138,9 @@ const YearPage = () => {
           imageSrc={irvinePic}
           title="Irvine Trip"
           secondary="Our Annual Team trip to participate in the Anteater Open!"
-          text="text here"
+          text="Every year, the team drives down to Irvine to contest in the UCI Anteater Collegiate Tournament! 
+                This year, many of us brought home medals from winning their events, as well as had a lot of fun
+                exploring different boba places and sceneries in SoCal!"
         />
 
         <div className="gallery-item" tabIndex="0" onClick={() => handleShowModal('stanford')}>
@@ -158,7 +160,9 @@ const YearPage = () => {
           imageSrc={stanfordPic}
           title="Stanford Meet"
           secondary="Our first ever meet against Stanford Badminton!"
-          text="text here"
+          text="This year Stanford Badminton contacted us to travel to Stanford University to play against them in a
+                school vs school meet! It was very fun to play at a completely new location, and to meet many of the
+                very talented Stanford players."
         />
         {/*start next*/}
         <div className="gallery-item" tabIndex="0" onClick={() => handleShowModal('norcal')}>
@@ -178,7 +182,10 @@ const YearPage = () => {
           imageSrc={norcalPic}
           title="NorCal Collegiate Tournament"
           secondary="Winning the First Ever NorCal Collegiate Championships"
-          text="text here"
+          text="New to this year, western schools competed in a Northern California Collegete Championships
+                to qualify for the National Collegiate Tournament! We hosted this tournament @ Hickey Gymnasium 
+                in UC Davis, and played against 5 other teams (UCSC, Stanford, Cal Badminton, SDSU, Minnesota State)
+                and won the tournament!"
         />
       {/*start next*/}
       <div className="gallery-item" tabIndex="0" onClick={() => handleShowModal('boston')}>
@@ -197,8 +204,10 @@ const YearPage = () => {
           onClose={handleCloseModal}
           imageSrc={bostonPic}
           title="Boston Collegiate Nationals"
-          secondary="Playing in our very first cross-country tournament!"
-          text="text here"
+          secondary="Playing in our very first cross-country badminton tournament!"
+          text="This was our team's very first time flying to another state to play in a tournament! We had a blast
+              competing against eastern schools like Purdue, Boston University, and Cornell! We got to explore the city
+              of Boston, and have a lot of really exotic dinners.:)"
         />
 
 			{/*start next*/}
@@ -219,7 +228,9 @@ const YearPage = () => {
           imageSrc={interclubPic}
           title="UC Davis Interclub Tournament"
           secondary="Hosting a Davis Exclusive tournament"
-          text="text here"
+          text="The Davis Interclub Tournament is a fundraiser for our club, with the goal of getting all of the UCD
+                badminton players of all levels to compete in a one-day, super chill tournament. We have prizes like
+                polaroid pics of the winners, super cute stuffed animals, and stringing service coupons!"
         />
       {/*start next*/}
       <div className="gallery-item" tabIndex="0" onClick={() => handleShowModal('davisopen')}>
@@ -239,7 +250,9 @@ const YearPage = () => {
           imageSrc={davisopenPic}
           title="Davis Open 2024"
           secondary="Hosting a Davis Exclusive tournament"
-          text="text here"
+          text="Davis Open this year was super well organized and hosted @ the Credit Union Center, but with super cool new floors!
+                We had a really fun time adapting to the new setting and having many alumni come back to help create the most 
+                successful Davis Open ever made!"
         />
 			{/*start next*/}
       <div className="gallery-item" tabIndex="0" onClick={() => handleShowModal('banquet')}>
@@ -259,7 +272,9 @@ const YearPage = () => {
           imageSrc={banquetPic}
           title="Year-End Banquet"
           secondary="A Celebration of a fun year together"
-          text="text here"
+          text="Hosted at the Welcome Center at UCD, the Badminton Banquet this year was a blast! We had
+                catering services from Panda Express, as well as cool superlative games, celebrating the new officers,
+                and saying goodbye to the seniors!"
         />
       
 
