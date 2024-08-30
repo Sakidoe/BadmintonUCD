@@ -121,8 +121,8 @@ const DavisOpen = () => {
             imageSrc={claudiaHorizontal}
             title="Claudia Xu"
             secondary="Vice President"
-            text="Hello friends! My name is Claudia and I’m a fourth year Animal Science Major who LOVES dogs, capybaras, and white bread"
-            text2='Outside of badminton I enjoy baking, making matcha lattes, eating yummy foods, and sharing fruits with my dog 😃'
+            text="Hello friends! My name is Claudia and I’m a fourth year Animal Science Major who LOVES dogs, capybaras, and white bread!"
+            text2='Outside of badminton I enjoy baking, making matcha lattes, eating yummy foods, and sharing fruits with my dog :)'
           />
 
           <nav className="officer-cell" onClick={() => handleShowModal('joy')}>
@@ -141,7 +141,7 @@ const DavisOpen = () => {
             <p className="officer-name">Joy Yang</p>
             <p className="officer-title">Secretary & Safety Officer</p>
             <p className="officer-info">Year: Senior</p>
-            <p className="officer-info">Major: MPB</p>
+            <p className="officer-info">Major: BMB</p>
           </nav>
           <OfficerModal
             show={activeModal === 'joy'}
