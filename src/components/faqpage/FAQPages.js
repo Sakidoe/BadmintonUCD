@@ -14,10 +14,16 @@ const datapage = {
           content: `Our practice information for Fall Quarter 2024-2025 are: <br />
                    Location: Hickey Gymnasium350 Howard Way, Davis, CA 95616 <br />
                    Practice Times: <br />
-                   Monday: 9:30pm - 11:00pm <br />
-                   Wednesday: 7:30pm - 9:00pm <br />
-                   Friday: 7:30pm - 9:00pm`,
+                   Monday: 7:30pm - 9:30pm <br />
+                   Wednesday: 7:30pm - 9:30pm <br />
+                   Friday: 7:30pm - 9:30pm`,
       },
+      {
+        title: <h classname="FAQ-question">
+                &nbsp; When is our first practice for Fall Quarter 2024?
+               </h>,
+        content: `Our first practice this quarter is on Monday, 09/30/2024!`,
+    },
       {
           title: <h classname="FAQ-question">
                   &nbsp; How much are our practices?
